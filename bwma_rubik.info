@@ -1,6 +1,6 @@
 name = BWMA Rubik
 description = Rubik subtheme for use in BWMA websites.
-base theme = rubik
+base theme = full_rubik
 core = 7.x
 
 stylesheets[screen][] = bwma_rubik_style.css
