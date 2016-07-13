@@ -1,5 +1,5 @@
 name = BWMA Rubik
-description = Rubik subtheme for use in BWMA websites.
+description = Full Rubik subtheme for use in BWMA websites.
 base theme = full_rubik
 core = 7.x
 
