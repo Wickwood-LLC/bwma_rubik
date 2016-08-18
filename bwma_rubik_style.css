@@ -1247,6 +1247,9 @@ table#field-notes-values {
 .field-name-field-notes .tabledrag-toggle-weight-wrapper,
 .field-name-field-staff-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
+.field-name-field-notes th.field-label,
+.field-name-field-staff-notes th.field-label {
+  display: none; }
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content,
 .field-name-field-staff-notes td:not([class]),

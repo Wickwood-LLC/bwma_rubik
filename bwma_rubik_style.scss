@@ -1484,6 +1484,9 @@ table#field-notes-values {
   .tabledrag-toggle-weight-wrapper {
     display: none;
   }
+  th.field-label {
+    display: none;
+  }
 
   td:not([class]),
   td:not([class]) > .ajax-new-content {
