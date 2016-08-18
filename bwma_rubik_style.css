@@ -1224,29 +1224,53 @@ table#field-notes-values {
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-number input {
   width: auto; }
 
-.field-name-field-notes .tabledrag-toggle-weight-wrapper {
+.field-name-field-notes .tabledrag-toggle-weight-wrapper,
+.field-name-field-staff-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
 .field-name-field-notes td:not([class]),
-.field-name-field-notes td:not([class]) > .ajax-new-content {
+.field-name-field-notes td:not([class]) > .ajax-new-content,
+.field-name-field-staff-notes td:not([class]),
+.field-name-field-staff-notes td:not([class]) > .ajax-new-content {
   position: relative; }
   .field-name-field-notes td:not([class]) .field-name-field-staff-user,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user {
+  .field-name-field-notes td:not([class]) .field-name-field-staff-admin,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-admin,
+  .field-name-field-staff-notes td:not([class]) .field-name-field-staff-user,
+  .field-name-field-staff-notes td:not([class]) .field-name-field-staff-admin,
+  .field-name-field-staff-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user,
+  .field-name-field-staff-notes td:not([class]) > .ajax-new-content .field-name-field-staff-admin {
     float: left; }
     .field-name-field-notes td:not([class]) .field-name-field-staff-user input,
-    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user input {
+    .field-name-field-notes td:not([class]) .field-name-field-staff-admin input,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user input,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-admin input,
+    .field-name-field-staff-notes td:not([class]) .field-name-field-staff-user input,
+    .field-name-field-staff-notes td:not([class]) .field-name-field-staff-admin input,
+    .field-name-field-staff-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user input,
+    .field-name-field-staff-notes td:not([class]) > .ajax-new-content .field-name-field-staff-admin input {
       display: inline-block;
       width: 24em; }
   .field-name-field-notes td:not([class]) .field-name-field-note,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
+  .field-name-field-notes td:not([class]) .field-name-field-staff-note,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-note,
+  .field-name-field-staff-notes td:not([class]) .field-name-field-note,
+  .field-name-field-staff-notes td:not([class]) .field-name-field-staff-note,
+  .field-name-field-staff-notes td:not([class]) > .ajax-new-content .field-name-field-note,
+  .field-name-field-staff-notes td:not([class]) > .ajax-new-content .field-name-field-staff-note {
     clear: left; }
   .field-name-field-notes td:not([class]) .button-remove,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
+  .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove,
+  .field-name-field-staff-notes td:not([class]) .button-remove,
+  .field-name-field-staff-notes td:not([class]) > .ajax-new-content .button-remove {
     position: absolute;
     right: -50px;
     top: 50%;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); }
-.field-name-field-notes .field-add-more-submit {
+.field-name-field-notes .field-add-more-submit,
+.field-name-field-staff-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }
 

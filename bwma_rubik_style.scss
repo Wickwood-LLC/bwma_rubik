@@ -1475,7 +1475,8 @@ table#field-notes-values {
   }
 }
 
-.field-name-field-notes{
+.field-name-field-notes,
+.field-name-field-staff-notes {
   .tabledrag-toggle-weight-wrapper {
     display: none;
   }
@@ -1484,7 +1485,8 @@ table#field-notes-values {
   td:not([class]) > .ajax-new-content {
     position: relative;
 
-    .field-name-field-staff-user {
+    .field-name-field-staff-user,
+    .field-name-field-staff-admin {
       float: left;
 
       input {
@@ -1492,7 +1494,8 @@ table#field-notes-values {
         width: 24em;
       }
     }
-    .field-name-field-note {
+    .field-name-field-note,
+    .field-name-field-staff-note {
       clear: left;
     }    
     .button-remove {
