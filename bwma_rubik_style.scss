@@ -773,8 +773,10 @@ table.views-table {
 }
 
 .field-name-field-notes,
+.field-name-field-staff-notes,
 .field-name-field-debit-fee-notes {
-  .field-name-field-date {
+  .field-name-field-date,
+  .field-name-field-staff-note-date {
     float: left;
     margin-right: 3em;
 
@@ -782,14 +784,16 @@ table.views-table {
       width: auto;
     }
   }
-  .field-name-field-staff-user {
+  .field-name-field-staff-user,
+  .field-name-field-staff-admin {
     float: left;
 
     input {
       width: 24em;
     }
   }
-  .field-name-field-note {
+  .field-name-field-note,
+  .field-name-field-staff-note {
     clear: both;
   }
 }
