@@ -1401,6 +1401,8 @@ td:not([class]) {
   line-height: 1.5; }
 .node-type-appointment .comment {
   border: 1px solid #cccccc; }
+.node-type-appointment .comment-form .column-main {
+  border: 1px solid #cccccc; }
 
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
