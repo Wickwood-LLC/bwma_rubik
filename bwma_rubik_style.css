@@ -1787,8 +1787,11 @@ td:not([class]) {
     .page-node-add-loan .deferred-enrolment-fees {
       padding-top: 1em; } }
 
+.input.form-submit {
+  background-color: #77BBCD; }
+
 .views-exposed-form .reset-link-button {
-  background-image: url(/sites/all/themes/rubik/images/buttons.png);
+  background-image: url(/sites/all/themes/rubik/images/buttons.png) !important;
   box-shadow: #ddd 0 1px 1px;
   cursor: pointer;
   padding: 3px 10px;
@@ -1799,6 +1802,7 @@ td:not([class]) {
   border-width: 1px;
   border-style: solid;
   border-color: #ddd #ddd #ccc;
+  border-radius: 3px;
   background: #fff none -1px 50% no-repeat;
   display: block;
   margin-top: 5px; }
