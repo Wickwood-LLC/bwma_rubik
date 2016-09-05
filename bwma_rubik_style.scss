@@ -1857,3 +1857,20 @@ td:not([class]) {
     }
   }
 }
+
+.views-exposed-form .reset-link-button {
+  background-image: url(/sites/all/themes/rubik/images/buttons.png);
+  box-shadow: #ddd 0 1px 1px;
+  cursor: pointer;
+  padding: 3px 10px;
+  color: #333;
+  font-size: 13px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd #ddd #ccc;
+  background: #fff none -1px 50% no-repeat;
+  display: block;
+  margin-top: 5px;
+} 
