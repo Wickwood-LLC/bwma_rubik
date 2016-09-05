@@ -1402,7 +1402,8 @@ td:not([class]) {
 .node-type-appointment .comment {
   border: 1px solid #cccccc; }
 .node-type-appointment .comment-form .column-main {
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  padding: 1em; }
 
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
