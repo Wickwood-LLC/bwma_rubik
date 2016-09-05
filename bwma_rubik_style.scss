@@ -1612,7 +1612,7 @@ td:not([class]) {
     font-size: 1.2em;
 
     .field {
-      margin-bottom: 3px;
+      margin-bottom: 0.5em;
     }
 
     .field-label-inline .field-label {
@@ -1621,8 +1621,18 @@ td:not([class]) {
   }
 
   .column-side .column-wrapper {
-    width: calc(100% - 1em);
+    width: calc(100% - 1em) !important;
     margin-left: 1em;
+    border: 1px solid #cccccc;
+  }
+
+  #comments .box-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  .comment {
     border: 1px solid #cccccc;
   }
 }
