@@ -1382,24 +1382,24 @@ td:not([class]) {
 .pane-user-roles li.first {
   text-transform: capitalize; }
 
-.node-appointment .column-main .column-wrapper {
+.node-type-appointment .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
   padding: 10px;
   font-size: 1.2em; }
-  .node-appointment .column-main .column-wrapper .field {
+  .node-type-appointment .column-main .column-wrapper .field {
     margin-bottom: 0.5em; }
-  .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
+  .node-type-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
-.node-appointment .column-side .column-wrapper {
+.node-type-appointment .column-side .column-wrapper {
   width: calc(100% - 1em) !important;
   margin-left: 1em;
   border: 1px solid #cccccc; }
-.node-appointment #comments .box-title {
+.node-type-appointment #comments .box-title {
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.5; }
-.node-appointment .comment {
+.node-type-appointment .comment {
   border: 1px solid #cccccc; }
 
 .node-appointment-form .field-name-field-appointment-with label,
