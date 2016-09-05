@@ -1619,6 +1619,12 @@ td:not([class]) {
       width: 160px;
     }
   }
+
+  .column-side .column-wrapper {
+    width: calc(100% - 1em);
+    margin-left: 1em;
+    border: 1px solid #cccccc;
+  }
 }
 
 .node-appointment-form {

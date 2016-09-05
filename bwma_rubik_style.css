@@ -1390,6 +1390,10 @@ td:not([class]) {
     margin-bottom: 3px; }
   .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
+.node-appointment .column-side .column-wrapper {
+  width: calc(100% - 1em);
+  margin-left: 1em;
+  border: 1px solid #cccccc; }
 
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
