@@ -1787,7 +1787,7 @@ td:not([class]) {
     .page-node-add-loan .deferred-enrolment-fees {
       padding-top: 1em; } }
 
-.input.form-submit {
+input.form-submit {
   background-color: #77BBCD; }
 
 .views-exposed-form .reset-link-button {
