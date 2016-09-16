@@ -1627,20 +1627,42 @@ td:not([class]) {
       border: 1px solid #cccccc;
     }
   }
+}
 
-  #comments .box-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-    line-height: 1.5;
+.node-calendar-item {
+  .column-main .column-wrapper {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    font-size: 1.2em;
+
+    .field {
+      margin-bottom: 0.5em;
+    }
+
+    .field-label-inline .field-label {
+      width: 160px;
+    }
   }
-  .comment {
+
+  .column-side .column-wrapper {
+    width: calc(100% - 1em) !important;
+    margin-left: 1em;
     border: 1px solid #cccccc;
   }
-  .comment-form .column-main {
-    border: 1px solid #cccccc;
-    padding: 1em;
-  }
+}
+
+#comments .box-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.comment {
+  border: 1px solid #cccccc;
+}
+.comment-form .column-main {
+  border: 1px solid #cccccc;
+  padding: 1em;
 }
 
 .node-appointment-form {

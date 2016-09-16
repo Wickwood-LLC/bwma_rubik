@@ -1394,14 +1394,30 @@ td:not([class]) {
   width: calc(100% - 1em) !important;
   margin-left: 1em;
   border: 1px solid #cccccc; }
-.node-type-appointment #comments .box-title {
+
+.node-calendar-item .column-main .column-wrapper {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  font-size: 1.2em; }
+  .node-calendar-item .column-main .column-wrapper .field {
+    margin-bottom: 0.5em; }
+  .node-calendar-item .column-main .column-wrapper .field-label-inline .field-label {
+    width: 160px; }
+.node-calendar-item .column-side .column-wrapper {
+  width: calc(100% - 1em) !important;
+  margin-left: 1em;
+  border: 1px solid #cccccc; }
+
+#comments .box-title {
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.5; }
-.node-type-appointment .comment {
+
+.comment {
   border: 1px solid #cccccc; }
-.node-type-appointment .comment-form .column-main {
+
+.comment-form .column-main {
   border: 1px solid #cccccc;
   padding: 1em; }
 
