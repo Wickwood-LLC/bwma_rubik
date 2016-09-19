@@ -1394,7 +1394,7 @@ td:not([class]) {
   width: calc(100% - 1em) !important;
   margin-left: 1em;
   border: 1px solid #cccccc;
-  padding: 0; }
+  padding: 0 !important; }
 
 .node-calendar-item .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
@@ -1410,20 +1410,18 @@ td:not([class]) {
   width: calc(100% - 1em) !important;
   margin-left: 1em;
   border: 1px solid #cccccc;
-  padding: 0; }
+  padding: 0 !important; }
 
 #comments .box-title {
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.5; }
-
-.comment {
-  border: 1px solid #cccccc; }
-
-.comment-form .column-main {
-  border: 1px solid #cccccc;
-  padding: 1em; }
+  #comments .box-title .comment {
+    border: 1px solid #cccccc; }
+  #comments .box-title .comment-form .column-main {
+    border: 1px solid #cccccc;
+    padding: 1em; }
 
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
