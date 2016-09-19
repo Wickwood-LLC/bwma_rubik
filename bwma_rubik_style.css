@@ -1417,11 +1417,11 @@ td:not([class]) {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.5; }
-  #comments .box-title .comment {
-    border: 1px solid #cccccc; }
-  #comments .box-title .comment-form .column-main {
-    border: 1px solid #cccccc;
-    padding: 1em; }
+#comments .comment {
+  border: 1px solid #cccccc; }
+#comments .comment-form .column-main {
+  border: 1px solid #cccccc;
+  padding: 1em; }
 
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {

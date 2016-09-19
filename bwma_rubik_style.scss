@@ -1655,15 +1655,17 @@ td:not([class]) {
   }
 }
 
-#comments .box-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-  line-height: 1.5;
+#comments {
+  .box-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
 
   .comment {
-  border: 1px solid #cccccc;
-}
+    border: 1px solid #cccccc;
+  }
   .comment-form .column-main {
     border: 1px solid #cccccc;
     padding: 1em;
