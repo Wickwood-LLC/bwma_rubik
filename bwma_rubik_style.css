@@ -1382,18 +1382,19 @@ td:not([class]) {
 .pane-user-roles li.first {
   text-transform: capitalize; }
 
-.node-type-appointment .node-appointment .column-main .column-wrapper {
+.node-appointment .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
   padding: 10px;
   font-size: 1.2em; }
-  .node-type-appointment .node-appointment .column-main .column-wrapper .field {
+  .node-appointment .column-main .column-wrapper .field {
     margin-bottom: 0.5em; }
-  .node-type-appointment .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
+  .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
-.node-type-appointment .node-appointment .column-side .column-wrapper {
+.node-appointment .column-side .column-wrapper {
   width: calc(100% - 1em) !important;
   margin-left: 1em;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  padding: 0; }
 
 .node-calendar-item .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
@@ -1401,12 +1402,15 @@ td:not([class]) {
   font-size: 1.2em; }
   .node-calendar-item .column-main .column-wrapper .field {
     margin-bottom: 0.5em; }
+  .node-calendar-item .column-main .column-wrapper .date-display-range {
+    display: inline; }
   .node-calendar-item .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
 .node-calendar-item .column-side .column-wrapper {
   width: calc(100% - 1em) !important;
   margin-left: 1em;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  padding: 0; }
 
 #comments .box-title {
   text-align: center;
