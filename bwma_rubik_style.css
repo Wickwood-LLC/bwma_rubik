@@ -1419,7 +1419,7 @@ td:not([class]) {
   line-height: 1.5; }
 #comments .comment {
   border: 1px solid #cccccc; }
-#comments .comment-form .column-main {
+#comments .comment-form {
   border: 1px solid #cccccc;
   padding: 1em; }
 
