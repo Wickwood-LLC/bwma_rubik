@@ -16,6 +16,7 @@
     display: inline-block;
   }
   .loan-debit-info,
+  .drafting-acct-info,
   .deferred-enrolment-fees {
     @include breakpoint(0px) {
       width: 100%;
