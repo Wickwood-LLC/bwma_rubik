@@ -327,11 +327,10 @@
     .field-name-field-lender {
       @include flexifields(150px);
     }
-
-  }
-  .field-name-field-account-type {
-    display: inline-block;
-    margin-left: 10px;
+    .field-name-field-account-type .form-item {
+      display: inline-block;
+      margin-left: 10px;
+    }
   }
   .field.field-name-field-deferred-fee-label {
     display: inline-block;

@@ -193,7 +193,7 @@ table.views-table .pane-user-field-identification {
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
-.node-type-loan .field-name-field-account-type {
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-type .form-item {
   display: inline-block;
   margin-left: 10px; }
 .node-type-loan .field.field-name-field-deferred-fee-label {
@@ -1196,7 +1196,7 @@ table#field-notes-values {
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
-.page-user-view .field-name-field-loans .field-name-field-account-type {
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-type .form-item {
   display: inline-block;
   margin-left: 10px; }
 .page-user-view .field-name-field-loans .field.field-name-field-deferred-fee-label {
