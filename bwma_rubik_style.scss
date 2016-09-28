@@ -313,6 +313,26 @@
   .pane-loan-chaos-data {
     .field-label { width: 225px; }
   }
+  .field-name-field-drafting-account-informati {
+    .form-item {
+      input {
+        width: auto;
+      }
+      label {
+        width: 150px;
+      }
+    }
+
+    .field-name-field-account-owner-name,
+    .field-name-field-lender {
+      @include flexifields(150px);
+    }
+
+  }
+  .field-name-field-account-type {
+    display: inline-block;
+    margin-left: 10px;
+  }
   .field.field-name-field-deferred-fee-label {
     display: inline-block;
     font-weight: bold;

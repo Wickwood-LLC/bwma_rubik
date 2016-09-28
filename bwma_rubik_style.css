@@ -167,6 +167,35 @@ table.views-table .pane-user-field-identification {
   width: 190px; }
 .node-type-loan .pane-loan-chaos-data .field-label {
   width: 225px; }
+.node-type-loan .field-name-field-drafting-account-informati .form-item input {
+  width: auto; }
+.node-type-loan .field-name-field-drafting-account-informati .form-item label {
+  width: 150px; }
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px; }
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
+.node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  min-width: 100px; }
+.node-type-loan .field-name-field-account-type {
+  display: inline-block;
+  margin-left: 10px; }
 .node-type-loan .field.field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
@@ -1141,6 +1170,35 @@ table#field-notes-values {
   width: 190px; }
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
   width: 225px; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .form-item input {
+  width: auto; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .form-item label {
+  width: 150px; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  min-width: 100px; }
+.page-user-view .field-name-field-loans .field-name-field-account-type {
+  display: inline-block;
+  margin-left: 10px; }
 .page-user-view .field-name-field-loans .field.field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
