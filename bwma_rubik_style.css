@@ -167,14 +167,14 @@ table.views-table .pane-user-field-identification {
   width: 190px; }
 .node-type-loan .pane-loan-chaos-data .field-label {
   width: 225px; }
-.node-type-loan .field-name-field-deferred-fee-label {
+.node-type-loan .field.field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
   width: 270px; }
-  .node-type-loan .field-name-field-deferred-fee-label .field-items {
+  .node-type-loan .field.field-name-field-deferred-fee-label .field-items {
     display: inline-block;
     margin-left: 0; }
-  .node-type-loan .field-name-field-deferred-fee-label:after {
+  .node-type-loan .field.field-name-field-deferred-fee-label:after {
     content: ':\00a0'; }
 .node-type-loan .field-name-field-current-lender,
 .node-type-loan .field-name-field-current-service-bureau {
@@ -1141,14 +1141,14 @@ table#field-notes-values {
   width: 190px; }
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
   width: 225px; }
-.page-user-view .field-name-field-loans .field-name-field-deferred-fee-label {
+.page-user-view .field-name-field-loans .field.field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
   width: 270px; }
-  .page-user-view .field-name-field-loans .field-name-field-deferred-fee-label .field-items {
+  .page-user-view .field-name-field-loans .field.field-name-field-deferred-fee-label .field-items {
     display: inline-block;
     margin-left: 0; }
-  .page-user-view .field-name-field-loans .field-name-field-deferred-fee-label:after {
+  .page-user-view .field-name-field-loans .field.field-name-field-deferred-fee-label:after {
     content: ':\00a0'; }
 .page-user-view .field-name-field-loans .field-name-field-current-lender,
 .page-user-view .field-name-field-loans .field-name-field-current-service-bureau {
