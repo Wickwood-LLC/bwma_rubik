@@ -167,6 +167,8 @@ table.views-table .pane-user-field-identification {
   width: 190px; }
 .node-type-loan .pane-loan-chaos-data .field-label {
   width: 225px; }
+.node-type-loan .field-name-field-drafting-account-informati .field .field-label {
+  width: 152px; }
 .node-type-loan .field-name-field-drafting-account-informati .form-item input {
   width: auto; }
 .node-type-loan .field-name-field-drafting-account-informati .form-item label {
@@ -1170,6 +1172,8 @@ table#field-notes-values {
   width: 190px; }
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
   width: 225px; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field .field-label {
+  width: 152px; }
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .form-item input {
   width: auto; }
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .form-item label {
