@@ -580,6 +580,40 @@ table.views-table .pane-user-field-identification {
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program .form-radios .form-item {
     float: left;
     width: 150px; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .fieldset-title {
+  font-size: 13px;
+  font-weight: bold; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field .field-label {
+  width: 152px; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .form-item input {
+  width: auto; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .form-item label {
+  width: 150px; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  min-width: 100px; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item {
+  display: inline-block;
+  margin-left: 10px; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
@@ -1482,6 +1516,40 @@ td:not([class]) {
   .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-bwma-loan-program .form-radios .form-item {
     float: left;
     width: 150px; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .fieldset-title {
+  font-size: 13px;
+  font-weight: bold; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field .field-label {
+  width: 152px; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .form-item input {
+  width: auto; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .form-item label {
+  width: 150px; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  min-width: 100px; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item {
+  display: inline-block;
+  margin-left: 10px; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
