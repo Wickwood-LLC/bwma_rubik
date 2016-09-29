@@ -16,7 +16,6 @@
     display: inline-block;
   }
   .loan-debit-info,
-  .drafting-acct-info,
   .deferred-enrolment-fees {
     @include breakpoint(0px) {
       width: 100%;
@@ -314,6 +313,11 @@
     .field-label { width: 225px; }
   }
   .field-name-field-drafting-account-informati {
+    .fieldset-title {
+      font-size: 13px;
+      font-weight: bold;
+    }
+
     .field .field-label {
       width: 152px;
     }

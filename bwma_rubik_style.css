@@ -167,6 +167,9 @@ table.views-table .pane-user-field-identification {
   width: 190px; }
 .node-type-loan .pane-loan-chaos-data .field-label {
   width: 225px; }
+.node-type-loan .field-name-field-drafting-account-informati .fieldset-title {
+  font-size: 13px;
+  font-weight: bold; }
 .node-type-loan .field-name-field-drafting-account-informati .field .field-label {
   width: 152px; }
 .node-type-loan .field-name-field-drafting-account-informati .form-item input {
@@ -541,14 +544,12 @@ table.views-table .pane-user-field-identification {
   display: inline-block; }
 @media (min-width: 0px) {
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .drafting-acct-info,
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
     width: 100%;
     margin-right: 0;
     float: none; } }
 @media (min-width: 780px) {
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .drafting-acct-info,
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
     display: block;
     width: 49%;
@@ -557,14 +558,12 @@ table.views-table .pane-user-field-identification {
     clear: left; } }
 @media (min-width: 992px) {
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .drafting-acct-info,
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
     width: 100%;
     margin-right: 0;
     float: none; } }
 @media (min-width: 1280px) {
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .drafting-acct-info,
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
     display: block;
     width: 49%;
@@ -1172,6 +1171,9 @@ table#field-notes-values {
   width: 190px; }
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
   width: 225px; }
+.page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .fieldset-title {
+  font-size: 13px;
+  font-weight: bold; }
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field .field-label {
   width: 152px; }
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .form-item input {
@@ -1444,14 +1446,12 @@ td:not([class]) {
   display: inline-block; }
 @media (min-width: 0px) {
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-debit-info,
-  .page-admin-field-edit-profile2-field-loans .ief-form .drafting-acct-info,
   .page-admin-field-edit-profile2-field-loans .ief-form .deferred-enrolment-fees {
     width: 100%;
     margin-right: 0;
     float: none; } }
 @media (min-width: 780px) {
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-debit-info,
-  .page-admin-field-edit-profile2-field-loans .ief-form .drafting-acct-info,
   .page-admin-field-edit-profile2-field-loans .ief-form .deferred-enrolment-fees {
     display: block;
     width: 49%;
@@ -1460,14 +1460,12 @@ td:not([class]) {
     clear: left; } }
 @media (min-width: 992px) {
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-debit-info,
-  .page-admin-field-edit-profile2-field-loans .ief-form .drafting-acct-info,
   .page-admin-field-edit-profile2-field-loans .ief-form .deferred-enrolment-fees {
     width: 100%;
     margin-right: 0;
     float: none; } }
 @media (min-width: 1280px) {
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-debit-info,
-  .page-admin-field-edit-profile2-field-loans .ief-form .drafting-acct-info,
   .page-admin-field-edit-profile2-field-loans .ief-form .deferred-enrolment-fees {
     display: block;
     width: 49%;
