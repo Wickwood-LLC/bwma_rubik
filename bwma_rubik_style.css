@@ -127,10 +127,12 @@ table.views-table .pane-user-field-identification {
   border-bottom: 0; }
 
 .node-type-loan .node-loan,
-.node-type-loan .boxed {
+.node-type-loan .boxed,
+.node-type-loan .field-name-field-loans {
   position: relative; }
   .node-type-loan .node-loan h3,
-  .node-type-loan .boxed h3 {
+  .node-type-loan .boxed h3,
+  .node-type-loan .field-name-field-loans h3 {
     position: absolute;
     margin-left: 0;
     padding: 0 1em;
@@ -1131,10 +1133,12 @@ table#field-notes-values {
 .page-user-view .client-notes .field-name-field-note {
   clear: both; }
 .page-user-view .field-name-field-loans .node-loan,
-.page-user-view .field-name-field-loans .boxed {
+.page-user-view .field-name-field-loans .boxed,
+.page-user-view .field-name-field-loans .field-name-field-loans {
   position: relative; }
   .page-user-view .field-name-field-loans .node-loan h3,
-  .page-user-view .field-name-field-loans .boxed h3 {
+  .page-user-view .field-name-field-loans .boxed h3,
+  .page-user-view .field-name-field-loans .field-name-field-loans h3 {
     position: absolute;
     margin-left: 0;
     padding: 0 1em;
