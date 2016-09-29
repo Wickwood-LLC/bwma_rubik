@@ -247,8 +247,7 @@
 
 @mixin loan-node {
   .node-loan,
-  .boxed,
-  .field-name-field-loans {
+  .boxed {
     position: relative;
 
     h3 {
