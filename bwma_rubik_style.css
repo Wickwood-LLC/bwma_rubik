@@ -615,9 +615,13 @@ table.views-table .pane-user-field-identification {
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
-.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item {
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
+  width: 100%; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-radios {
+  display: inline-block; }
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-type-radio {
   display: inline-block;
-  margin-left: 10px; }
+  margin-right: 10px; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
@@ -1555,9 +1559,13 @@ td:not([class]) {
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
-.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item {
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
+  width: 100%; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-radios {
+  display: inline-block; }
+.page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-type-radio {
   display: inline-block;
-  margin-left: 10px; }
+  margin-right: 10px; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
