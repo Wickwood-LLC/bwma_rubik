@@ -767,7 +767,6 @@ table.views-table {
 
 .form-item {
   width: 100%;
-  margin-bottom: 0;
 
   label {
     display: inline-block;
@@ -777,6 +776,9 @@ table.views-table {
   input[type="text"] {
     box-sizing: border-box;
   }
+}
+.form-item.form-type-date-combo {
+  margin-bottom: 0;
 }
 .form-wrapper {
   margin-bottom: 0;

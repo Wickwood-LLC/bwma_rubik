@@ -346,13 +346,15 @@ table.views-table .pane-user-field-identification {
   display: none; }
 
 .form-item {
-  width: 100%;
-  margin-bottom: 0; }
+  width: 100%; }
   .form-item label {
     display: inline-block;
     font-size: 13px; }
   .form-item input[type="text"] {
     box-sizing: border-box; }
+
+.form-item.form-type-date-combo {
+  margin-bottom: 0; }
 
 .form-wrapper {
   margin-bottom: 0; }
