@@ -90,6 +90,7 @@
       .form-type-radio {
         display: inline-block;
         margin-right: 10px;
+        width: auto;
       }
     }
   }
@@ -99,6 +100,13 @@
       display: inline-block;
       width: auto;
     }
+  }
+  .field-name-field-loan-enrollment-date {
+    display: inline-block;
+  }
+  .field-name-field-used-diy-form {
+    display: inline-block;
+    vertical-align: top;
   }
   .field-name-field-deferred-fee-amount {
     width: 100%;
@@ -176,6 +184,13 @@
   .field-name-field-debiting-schedule .form-radios .form-item {
     float: left;
     width: 100px;
+  }
+
+  .field-name-field-current-lender,
+  .field-name-field-current-service-bureau {
+    label {font-weight: bold;}
+
+    .field-items { margin-left: 0; }
   }
 
   .afts-advance {
@@ -382,8 +397,16 @@
       .form-type-radio {
         display: inline-block;
         margin-right: 10px;
+        width: auto;
       }
     }
+  }
+  .field-name-field-loan-enrollment-date {
+    display: inline-block;
+  }
+  .field-name-field-used-diy-form {
+    display: inline-block;
+    vertical-align: top;
   }
   .field.field-name-field-deferred-fee-label {
     display: inline-block;
@@ -401,7 +424,7 @@
 
   .field-name-field-current-lender,
   .field-name-field-current-service-bureau {
-    font-weight: bold;
+    label {font-weight: bold;}
 
     .field-items { margin-left: 0; }
   }
@@ -742,11 +765,9 @@ table.views-table {
   }
 }
 
-.pane-additional-identifying-info-edit .form-wrapper {
-  margin-bottom: 0;
-}
 .form-item {
   width: 100%;
+  margin-bottom: 0;
 
   label {
     display: inline-block;
@@ -756,6 +777,9 @@ table.views-table {
   input[type="text"] {
     box-sizing: border-box;
   }
+}
+.form-wrapper {
+  margin-bottom: 0;
 }
 
 .page-staff-users table.views-table .item-list ul li {
