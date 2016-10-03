@@ -356,7 +356,7 @@ table.views-table .pane-user-field-identification {
 .form-item.form-type-date-combo {
   margin-bottom: 0; }
 
-.form-wrapper {
+.field-type-datetime.form-wrapper {
   margin-bottom: 0; }
 
 .page-staff-users table.views-table .item-list ul li {
