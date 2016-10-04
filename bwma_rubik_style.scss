@@ -1112,7 +1112,8 @@ table#field-notes-values {
 .page-user-edit,
 .page-admin-people-create {
 
-  #user-profile-form {
+  #user-profile-form,
+  [id*="user-register-form"] {
     .form-item-name,
     .form-item-mail {
       label { display: block; }
