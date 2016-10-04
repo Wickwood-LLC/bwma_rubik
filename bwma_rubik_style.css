@@ -211,6 +211,9 @@ table.views-table .pane-user-field-identification {
 .node-type-loan .field-name-field-used-diy-form {
   display: inline-block;
   vertical-align: top; }
+  .node-type-loan .field-name-field-used-diy-form label.option {
+    font-size: 13px;
+    font-weight: bold; }
 .node-type-loan .field.field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
@@ -643,6 +646,9 @@ table.views-table .pane-user-field-identification {
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
   display: inline-block;
   vertical-align: top; }
+  .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form label.option {
+    font-size: 13px;
+    font-weight: bold; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fee-amount {
   width: 100%; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
@@ -1282,6 +1288,9 @@ table#field-notes-values {
 .page-user-view .field-name-field-loans .field-name-field-used-diy-form {
   display: inline-block;
   vertical-align: top; }
+  .page-user-view .field-name-field-loans .field-name-field-used-diy-form label.option {
+    font-size: 13px;
+    font-weight: bold; }
 .page-user-view .field-name-field-loans .field.field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
@@ -1609,6 +1618,9 @@ td:not([class]) {
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-used-diy-form {
   display: inline-block;
   vertical-align: top; }
+  .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-used-diy-form label.option {
+    font-size: 13px;
+    font-weight: bold; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-deferred-fee-amount {
   width: 100%; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-additional-extra-principal input,

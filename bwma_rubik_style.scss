@@ -109,6 +109,11 @@
   .field-name-field-used-diy-form {
     display: inline-block;
     vertical-align: top;
+
+    label.option {
+      font-size: 13px;
+      font-weight: bold;
+    }
   }
   .field-name-field-deferred-fee-amount {
     width: 100%;
@@ -412,6 +417,11 @@
   .field-name-field-used-diy-form {
     display: inline-block;
     vertical-align: top;
+
+    label.option {
+      font-size: 13px;
+      font-weight: bold;
+    }
   }
   .field.field-name-field-deferred-fee-label {
     display: inline-block;
