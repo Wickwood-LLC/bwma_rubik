@@ -876,48 +876,28 @@ table#field-notes-values {
 .pane-additional-identifying-informati .field-collection-item-field-driver-s-license .field-label {
   min-width: 0; }
 
-.page-user-edit #user-profile-form .form-item-name label,
-.page-user-edit #user-profile-form .form-item-mail label,
-.page-user-edit [id*="user-register-form"] .form-item-name label,
-.page-user-edit [id*="user-register-form"] .form-item-mail label,
-.page-admin-people-create #user-profile-form .form-item-name label,
-.page-admin-people-create #user-profile-form .form-item-mail label,
-.page-admin-people-create [id*="user-register-form"] .form-item-name label,
-.page-admin-people-create [id*="user-register-form"] .form-item-mail label {
+.page-user-edit #main-content .form-item-name label,
+.page-user-edit #main-content .form-item-mail label,
+.page-admin-people-create #main-content .form-item-name label,
+.page-admin-people-create #main-content .form-item-mail label {
   display: block; }
-.page-user-edit #user-profile-form .form-item-name input,
-.page-user-edit #user-profile-form .form-item-mail input,
-.page-user-edit [id*="user-register-form"] .form-item-name input,
-.page-user-edit [id*="user-register-form"] .form-item-mail input,
-.page-admin-people-create #user-profile-form .form-item-name input,
-.page-admin-people-create #user-profile-form .form-item-mail input,
-.page-admin-people-create [id*="user-register-form"] .form-item-name input,
-.page-admin-people-create [id*="user-register-form"] .form-item-mail input {
+.page-user-edit #main-content .form-item-name input,
+.page-user-edit #main-content .form-item-mail input,
+.page-admin-people-create #main-content .form-item-name input,
+.page-admin-people-create #main-content .form-item-mail input {
   width: 100%; }
-.page-user-edit #user-profile-form .field-name-field-name-prefix .form-item,
-.page-user-edit #user-profile-form .field-name-field-first-name .form-item,
-.page-user-edit #user-profile-form .field-name-field-middle-name .form-item,
-.page-user-edit #user-profile-form .field-name-field-last-name .form-item,
-.page-user-edit #user-profile-form .field-name-field-name-suffix .form-item,
-.page-user-edit #user-profile-form .field-name-field-nickname .form-item,
-.page-user-edit [id*="user-register-form"] .field-name-field-name-prefix .form-item,
-.page-user-edit [id*="user-register-form"] .field-name-field-first-name .form-item,
-.page-user-edit [id*="user-register-form"] .field-name-field-middle-name .form-item,
-.page-user-edit [id*="user-register-form"] .field-name-field-last-name .form-item,
-.page-user-edit [id*="user-register-form"] .field-name-field-name-suffix .form-item,
-.page-user-edit [id*="user-register-form"] .field-name-field-nickname .form-item,
-.page-admin-people-create #user-profile-form .field-name-field-name-prefix .form-item,
-.page-admin-people-create #user-profile-form .field-name-field-first-name .form-item,
-.page-admin-people-create #user-profile-form .field-name-field-middle-name .form-item,
-.page-admin-people-create #user-profile-form .field-name-field-last-name .form-item,
-.page-admin-people-create #user-profile-form .field-name-field-name-suffix .form-item,
-.page-admin-people-create #user-profile-form .field-name-field-nickname .form-item,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-name-prefix .form-item,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-first-name .form-item,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-middle-name .form-item,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-last-name .form-item,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-name-suffix .form-item,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-nickname .form-item {
+.page-user-edit #main-content .field-name-field-name-prefix .form-item,
+.page-user-edit #main-content .field-name-field-first-name .form-item,
+.page-user-edit #main-content .field-name-field-middle-name .form-item,
+.page-user-edit #main-content .field-name-field-last-name .form-item,
+.page-user-edit #main-content .field-name-field-name-suffix .form-item,
+.page-user-edit #main-content .field-name-field-nickname .form-item,
+.page-admin-people-create #main-content .field-name-field-name-prefix .form-item,
+.page-admin-people-create #main-content .field-name-field-first-name .form-item,
+.page-admin-people-create #main-content .field-name-field-middle-name .form-item,
+.page-admin-people-create #main-content .field-name-field-last-name .form-item,
+.page-admin-people-create #main-content .field-name-field-name-suffix .form-item,
+.page-admin-people-create #main-content .field-name-field-nickname .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -927,158 +907,98 @@ table#field-notes-values {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-.page-user-edit #user-profile-form .field-name-field-name-prefix label,
-.page-user-edit #user-profile-form .field-name-field-first-name label,
-.page-user-edit #user-profile-form .field-name-field-middle-name label,
-.page-user-edit #user-profile-form .field-name-field-last-name label,
-.page-user-edit #user-profile-form .field-name-field-name-suffix label,
-.page-user-edit #user-profile-form .field-name-field-nickname label,
-.page-user-edit [id*="user-register-form"] .field-name-field-name-prefix label,
-.page-user-edit [id*="user-register-form"] .field-name-field-first-name label,
-.page-user-edit [id*="user-register-form"] .field-name-field-middle-name label,
-.page-user-edit [id*="user-register-form"] .field-name-field-last-name label,
-.page-user-edit [id*="user-register-form"] .field-name-field-name-suffix label,
-.page-user-edit [id*="user-register-form"] .field-name-field-nickname label,
-.page-admin-people-create #user-profile-form .field-name-field-name-prefix label,
-.page-admin-people-create #user-profile-form .field-name-field-first-name label,
-.page-admin-people-create #user-profile-form .field-name-field-middle-name label,
-.page-admin-people-create #user-profile-form .field-name-field-last-name label,
-.page-admin-people-create #user-profile-form .field-name-field-name-suffix label,
-.page-admin-people-create #user-profile-form .field-name-field-nickname label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-name-prefix label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-first-name label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-middle-name label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-last-name label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-name-suffix label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-nickname label {
+.page-user-edit #main-content .field-name-field-name-prefix label,
+.page-user-edit #main-content .field-name-field-first-name label,
+.page-user-edit #main-content .field-name-field-middle-name label,
+.page-user-edit #main-content .field-name-field-last-name label,
+.page-user-edit #main-content .field-name-field-name-suffix label,
+.page-user-edit #main-content .field-name-field-nickname label,
+.page-admin-people-create #main-content .field-name-field-name-prefix label,
+.page-admin-people-create #main-content .field-name-field-first-name label,
+.page-admin-people-create #main-content .field-name-field-middle-name label,
+.page-admin-people-create #main-content .field-name-field-last-name label,
+.page-admin-people-create #main-content .field-name-field-name-suffix label,
+.page-admin-people-create #main-content .field-name-field-nickname label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 95px;
           flex: 0 0 95px; }
-.page-user-edit #user-profile-form .field-name-field-name-prefix input,
-.page-user-edit #user-profile-form .field-name-field-first-name input,
-.page-user-edit #user-profile-form .field-name-field-middle-name input,
-.page-user-edit #user-profile-form .field-name-field-last-name input,
-.page-user-edit #user-profile-form .field-name-field-name-suffix input,
-.page-user-edit #user-profile-form .field-name-field-nickname input,
-.page-user-edit [id*="user-register-form"] .field-name-field-name-prefix input,
-.page-user-edit [id*="user-register-form"] .field-name-field-first-name input,
-.page-user-edit [id*="user-register-form"] .field-name-field-middle-name input,
-.page-user-edit [id*="user-register-form"] .field-name-field-last-name input,
-.page-user-edit [id*="user-register-form"] .field-name-field-name-suffix input,
-.page-user-edit [id*="user-register-form"] .field-name-field-nickname input,
-.page-admin-people-create #user-profile-form .field-name-field-name-prefix input,
-.page-admin-people-create #user-profile-form .field-name-field-first-name input,
-.page-admin-people-create #user-profile-form .field-name-field-middle-name input,
-.page-admin-people-create #user-profile-form .field-name-field-last-name input,
-.page-admin-people-create #user-profile-form .field-name-field-name-suffix input,
-.page-admin-people-create #user-profile-form .field-name-field-nickname input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-name-prefix input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-first-name input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-middle-name input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-last-name input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-name-suffix input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-nickname input {
+.page-user-edit #main-content .field-name-field-name-prefix input,
+.page-user-edit #main-content .field-name-field-first-name input,
+.page-user-edit #main-content .field-name-field-middle-name input,
+.page-user-edit #main-content .field-name-field-last-name input,
+.page-user-edit #main-content .field-name-field-name-suffix input,
+.page-user-edit #main-content .field-name-field-nickname input,
+.page-admin-people-create #main-content .field-name-field-name-prefix input,
+.page-admin-people-create #main-content .field-name-field-first-name input,
+.page-admin-people-create #main-content .field-name-field-middle-name input,
+.page-admin-people-create #main-content .field-name-field-last-name input,
+.page-admin-people-create #main-content .field-name-field-name-suffix input,
+.page-admin-people-create #main-content .field-name-field-nickname input {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 95px);
           flex: 1 1 calc(100% - 95px);
   min-width: 100px; }
-.page-user-edit #user-profile-form .field-name-field-gender label,
-.page-user-edit [id*="user-register-form"] .field-name-field-gender label,
-.page-admin-people-create #user-profile-form .field-name-field-gender label,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-gender label {
+.page-user-edit #main-content .field-name-field-gender label,
+.page-admin-people-create #main-content .field-name-field-gender label {
   width: 100%; }
-.page-user-edit #user-profile-form .field-name-field-gender .form-radios,
-.page-user-edit [id*="user-register-form"] .field-name-field-gender .form-radios,
-.page-admin-people-create #user-profile-form .field-name-field-gender .form-radios,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-gender .form-radios {
+.page-user-edit #main-content .field-name-field-gender .form-radios,
+.page-admin-people-create #main-content .field-name-field-gender .form-radios {
   display: inline-block; }
-.page-user-edit #user-profile-form .field-name-field-gender .form-item.form-type-radio,
-.page-user-edit [id*="user-register-form"] .field-name-field-gender .form-item.form-type-radio,
-.page-admin-people-create #user-profile-form .field-name-field-gender .form-item.form-type-radio,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-gender .form-item.form-type-radio {
+.page-user-edit #main-content .field-name-field-gender .form-item.form-type-radio,
+.page-admin-people-create #main-content .field-name-field-gender .form-item.form-type-radio {
   display: inline-block;
   width: auto; }
-.page-user-edit #user-profile-form .pane-user-field-identification,
-.page-user-edit [id*="user-register-form"] .pane-user-field-identification,
-.page-admin-people-create #user-profile-form .pane-user-field-identification,
-.page-admin-people-create [id*="user-register-form"] .pane-user-field-identification {
+.page-user-edit #main-content .pane-user-field-identification,
+.page-admin-people-create #main-content .pane-user-field-identification {
   width: auto; }
-  .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification,
-  .page-user-edit [id*="user-register-form"] .pane-user-field-identification .field-name-field-identification,
-  .page-admin-people-create #user-profile-form .pane-user-field-identification .field-name-field-identification,
-  .page-admin-people-create [id*="user-register-form"] .pane-user-field-identification .field-name-field-identification {
+  .page-user-edit #main-content .pane-user-field-identification .field-name-field-identification,
+  .page-admin-people-create #main-content .pane-user-field-identification .field-name-field-identification {
     width: 100%; }
-    .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification label,
-    .page-user-edit [id*="user-register-form"] .pane-user-field-identification .field-name-field-identification label,
-    .page-admin-people-create #user-profile-form .pane-user-field-identification .field-name-field-identification label,
-    .page-admin-people-create [id*="user-register-form"] .pane-user-field-identification .field-name-field-identification label {
+    .page-user-edit #main-content .pane-user-field-identification .field-name-field-identification label,
+    .page-admin-people-create #main-content .pane-user-field-identification .field-name-field-identification label {
       width: 100%; }
-    .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification:after,
-    .page-user-edit [id*="user-register-form"] .pane-user-field-identification .field-name-field-identification:after,
-    .page-admin-people-create #user-profile-form .pane-user-field-identification .field-name-field-identification:after,
-    .page-admin-people-create [id*="user-register-form"] .pane-user-field-identification .field-name-field-identification:after {
+    .page-user-edit #main-content .pane-user-field-identification .field-name-field-identification:after,
+    .page-admin-people-create #main-content .pane-user-field-identification .field-name-field-identification:after {
       content: '';
       display: none; }
-.page-user-edit #user-profile-form .pane-user-field-ss-or-ein,
-.page-user-edit [id*="user-register-form"] .pane-user-field-ss-or-ein,
-.page-admin-people-create #user-profile-form .pane-user-field-ss-or-ein,
-.page-admin-people-create [id*="user-register-form"] .pane-user-field-ss-or-ein {
+.page-user-edit #main-content .pane-user-field-ss-or-ein,
+.page-admin-people-create #main-content .pane-user-field-ss-or-ein {
   clear: both;
   white-space: nowrap; }
-  .page-user-edit #user-profile-form .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input,
-  .page-user-edit [id*="user-register-form"] .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input,
-  .page-admin-people-create #user-profile-form .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input,
-  .page-admin-people-create [id*="user-register-form"] .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input {
+  .page-user-edit #main-content .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input,
+  .page-admin-people-create #main-content .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input {
     width: 4em;
     text-align: center; }
-.page-user-edit #user-profile-form .field-name-field-birthdate input,
-.page-user-edit [id*="user-register-form"] .field-name-field-birthdate input,
-.page-admin-people-create #user-profile-form .field-name-field-birthdate input,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-birthdate input {
+.page-user-edit #main-content .field-name-field-birthdate input,
+.page-admin-people-create #main-content .field-name-field-birthdate input {
   width: 8em; }
-.page-user-edit #user-profile-form .field-name-field-birthdate .description,
-.page-user-edit [id*="user-register-form"] .field-name-field-birthdate .description,
-.page-admin-people-create #user-profile-form .field-name-field-birthdate .description,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-birthdate .description {
+.page-user-edit #main-content .field-name-field-birthdate .description,
+.page-admin-people-create #main-content .field-name-field-birthdate .description {
   display: none; }
-.page-user-edit #user-profile-form .pane-user-form-buttons .form-actions,
-.page-user-edit [id*="user-register-form"] .pane-user-form-buttons .form-actions,
-.page-admin-people-create #user-profile-form .pane-user-form-buttons .form-actions,
-.page-admin-people-create [id*="user-register-form"] .pane-user-form-buttons .form-actions {
+.page-user-edit #main-content .pane-user-form-buttons .form-actions,
+.page-admin-people-create #main-content .pane-user-form-buttons .form-actions {
   text-align: center;
   width: 100%; }
-.page-user-edit #user-profile-form .field-name-field-phone-type,
-.page-user-edit [id*="user-register-form"] .field-name-field-phone-type,
-.page-admin-people-create #user-profile-form .field-name-field-phone-type,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-phone-type {
+.page-user-edit #main-content .field-name-field-phone-type,
+.page-admin-people-create #main-content .field-name-field-phone-type {
   width: auto; }
-  .page-user-edit #user-profile-form .field-name-field-phone-type:after,
-  .page-user-edit [id*="user-register-form"] .field-name-field-phone-type:after,
-  .page-admin-people-create #user-profile-form .field-name-field-phone-type:after,
-  .page-admin-people-create [id*="user-register-form"] .field-name-field-phone-type:after {
+  .page-user-edit #main-content .field-name-field-phone-type:after,
+  .page-admin-people-create #main-content .field-name-field-phone-type:after {
     content: '';
     display: none; }
-.page-user-edit #user-profile-form .field-name-field-phone-number,
-.page-user-edit [id*="user-register-form"] .field-name-field-phone-number,
-.page-admin-people-create #user-profile-form .field-name-field-phone-number,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-phone-number {
+.page-user-edit #main-content .field-name-field-phone-number,
+.page-admin-people-create #main-content .field-name-field-phone-number {
   display: block; }
-.page-user-edit #user-profile-form .field-name-field-address-type:after,
-.page-user-edit [id*="user-register-form"] .field-name-field-address-type:after,
-.page-admin-people-create #user-profile-form .field-name-field-address-type:after,
-.page-admin-people-create [id*="user-register-form"] .field-name-field-address-type:after {
+.page-user-edit #main-content .field-name-field-address-type:after,
+.page-admin-people-create #main-content .field-name-field-address-type:after {
   content: '';
   display: none; }
 @media (min-width: 450px) and (max-width: 624px) {
-  .page-user-edit #user-profile-form .pane-user-form-account,
-  .page-user-edit [id*="user-register-form"] .pane-user-form-account,
-  .page-admin-people-create #user-profile-form .pane-user-form-account,
-  .page-admin-people-create [id*="user-register-form"] .pane-user-form-account {
+  .page-user-edit #main-content .pane-user-form-account,
+  .page-admin-people-create #main-content .pane-user-form-account {
     padding-top: 2em; } }
-.page-user-edit #user-profile-form #field-email-values,
-.page-user-edit [id*="user-register-form"] #field-email-values,
-.page-admin-people-create #user-profile-form #field-email-values,
-.page-admin-people-create [id*="user-register-form"] #field-email-values {
+.page-user-edit #main-content #field-email-values,
+.page-admin-people-create #main-content #field-email-values {
   display: inline-table; }
 .page-user-edit .pane-consultant-additional-id-info-ed label,
 .page-admin-people-create .pane-consultant-additional-id-info-ed label {
