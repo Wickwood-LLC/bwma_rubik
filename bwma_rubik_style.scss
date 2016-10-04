@@ -14,6 +14,8 @@
   }
   .field-name-field-used-diy-form {
     display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
   }
   .loan-debit-info,
   .deferred-enrolment-fees {
@@ -188,7 +190,10 @@
 
   .field-name-field-current-lender,
   .field-name-field-current-service-bureau {
-    label {font-weight: bold;}
+    label {
+      font-weight: bold;
+      font-size: 13px;
+    }
 
     .field-items { margin-left: 0; }
   }
@@ -424,7 +429,10 @@
 
   .field-name-field-current-lender,
   .field-name-field-current-service-bureau {
-    label {font-weight: bold;}
+    label {
+      font-weight: bold;
+      font-size: 13px;
+    }
 
     .field-items { margin-left: 0; }
   }
@@ -1791,6 +1799,8 @@ td:not([class]) {
   }
   .pane-node-field-used-diy-form {
     display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
   }
 
   .field-name-field-debiting-schedule .form-radios .form-item {

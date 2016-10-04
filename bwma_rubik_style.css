@@ -222,7 +222,8 @@ table.views-table .pane-user-field-identification {
     content: ':\00a0'; }
 .node-type-loan .field-name-field-current-lender label,
 .node-type-loan .field-name-field-current-service-bureau label {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 13px; }
 .node-type-loan .field-name-field-current-lender .field-items,
 .node-type-loan .field-name-field-current-service-bureau .field-items {
   margin-left: 0; }
@@ -554,7 +555,9 @@ table.views-table .pane-user-field-identification {
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold; }
 @media (min-width: 0px) {
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
@@ -698,7 +701,8 @@ table.views-table .pane-user-field-identification {
   width: 100px; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-current-lender label,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-current-service-bureau label {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 13px; }
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-current-lender .field-items,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-current-service-bureau .field-items {
   margin-left: 0; }
@@ -1289,7 +1293,8 @@ table#field-notes-values {
     content: ':\00a0'; }
 .page-user-view .field-name-field-loans .field-name-field-current-lender label,
 .page-user-view .field-name-field-loans .field-name-field-current-service-bureau label {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 13px; }
 .page-user-view .field-name-field-loans .field-name-field-current-lender .field-items,
 .page-user-view .field-name-field-loans .field-name-field-current-service-bureau .field-items {
   margin-left: 0; }
@@ -1516,7 +1521,9 @@ td:not([class]) {
 .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-used-diy-form {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold; }
 @media (min-width: 0px) {
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-debit-info,
   .page-admin-field-edit-profile2-field-loans .ief-form .deferred-enrolment-fees {
@@ -1660,7 +1667,8 @@ td:not([class]) {
   width: 100px; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-current-lender label,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-current-service-bureau label {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 13px; }
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-current-lender .field-items,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-current-service-bureau .field-items {
   margin-left: 0; }
@@ -1772,7 +1780,9 @@ td:not([class]) {
   float: left;
   margin-right: 5px; }
 .node-loan-form .pane-node-field-used-diy-form {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold; }
 .node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }
