@@ -1378,7 +1378,8 @@ table#field-notes-values {
   }
 }
 
-.page-user-edit:not(.page-user-edit-bwma-client) {
+.page-user-edit:not(.page-user-edit-bwma-client),
+.page-admin-people-create {
   .field-name-field-birthdate {
     input,
     .description {
