@@ -2073,6 +2073,7 @@ input.form-submit {
       border-bottom: 0;
       float: left;
       background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+      padding: 0;
 
       a {
         background-image: none;
@@ -2081,6 +2082,8 @@ input.form-submit {
         min-width: 70px;
         text-align: center;
         padding: 5px 10px;
+        font-weight: bold;
+        line-height: 20px;
       }
     }
   }
