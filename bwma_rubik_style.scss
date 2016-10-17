@@ -2112,8 +2112,11 @@ input.form-submit {
 
     .active-trail {
       background-color: #7bc !important;
-      color: #fff;
       text-shadow: #38a 0px 1px 0px;
+
+      a {
+        color: white;
+      }
     }
   }
 }
