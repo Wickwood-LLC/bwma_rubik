@@ -1525,6 +1525,12 @@ td:not([class]) {
       -webkit-transform: rotate(-90deg);
               transform: rotate(-90deg); } }
 
+#edit-field-loans.field-name-field-loans .button-remove {
+  position: initial;
+  -webkit-transform: none;
+          transform: none;
+  margin-right: 0.5em; }
+
 .field-name-field-referral-client .form-item,
 .field-name-field-referral-consultant .form-item,
 .field-name-field-referral-partner .form-item,
