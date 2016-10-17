@@ -2069,18 +2069,20 @@ input.form-submit {
     display: table;
     margin: auto;
 
-    li {
-      border-bottom: 0;
-      float: left;
-      background: #eee url(images/bleeds.png) 50% 0px no-repeat;
-      padding: 0;
-
+    >li {
       &:first-child {
         border-radius: 5px 0px 0px 5px;
       }
       &:last-child {
         border-radius: 0px 5px 5px 0px;
       }
+    }
+
+    li {
+      border-bottom: 0;
+      float: left;
+      background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+      padding: 0;
 
       a {
         background-image: none;
@@ -2102,6 +2104,16 @@ input.form-submit {
 
     .sf-sub-indicator{
       filter: invert(70%);
+    }
+
+    .menuparent ul {
+      width: auto;
+    }
+
+    .active-trail {
+      background-color: #7bc !important;
+      color: #fff;
+      text-shadow: #38a 0px 1px 0px;
     }
   }
 }

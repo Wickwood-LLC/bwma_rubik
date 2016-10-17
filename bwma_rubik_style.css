@@ -2102,15 +2102,15 @@ input.form-submit {
 #block-superfish-1 #superfish-1 {
   display: table;
   margin: auto; }
+  #block-superfish-1 #superfish-1 > li:first-child {
+    border-radius: 5px 0px 0px 5px; }
+  #block-superfish-1 #superfish-1 > li:last-child {
+    border-radius: 0px 5px 5px 0px; }
   #block-superfish-1 #superfish-1 li {
     border-bottom: 0;
     float: left;
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     padding: 0; }
-    #block-superfish-1 #superfish-1 li:first-child {
-      border-radius: 5px 0px 0px 5px; }
-    #block-superfish-1 #superfish-1 li:last-child {
-      border-radius: 0px 5px 5px 0px; }
     #block-superfish-1 #superfish-1 li a {
       background-image: none;
       color: #333;
@@ -2127,5 +2127,11 @@ input.form-submit {
   #block-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);
             filter: invert(70%); }
+  #block-superfish-1 #superfish-1 .menuparent ul {
+    width: auto; }
+  #block-superfish-1 #superfish-1 .active-trail {
+    background-color: #7bc !important;
+    color: #fff;
+    text-shadow: #38a 0px 1px 0px; }
 
 /*# sourceMappingURL=bwma_rubik_style.css.map */
