@@ -2112,7 +2112,7 @@ input.form-submit {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     padding: 0; }
     #block-superfish-1 #superfish-1 li:hover {
-      background-color: white; }
+      background: white; }
     #block-superfish-1 #superfish-1 li a {
       background-image: none;
       color: #333;
@@ -2134,7 +2134,7 @@ input.form-submit {
     overflow: visible !important; }
     #block-superfish-1 #superfish-1 .menuparent ul li {
       white-space: nowrap !important;
-      background-color: #ebebeb; }
+      background: #ebebeb; }
   #block-superfish-1 #superfish-1 .active-trail {
     background-color: #7bc !important; }
     #block-superfish-1 #superfish-1 .active-trail > a {
