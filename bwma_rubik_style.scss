@@ -2084,7 +2084,24 @@ input.form-submit {
         padding: 5px 10px;
         font-weight: bold;
         line-height: 20px;
+
+        &:first-child {
+          border-radius: 5px 0px 0px 5px;
+        }
+        &:last-child {
+          border-radius: 0px 5px 5px 0px;
+        }
+
+        > .sf-sub-indicator {
+          position: static;
+          display: inline-block;
+          margin-left: 0.5em;
+        }
       }
+    }
+
+    .sf-sub-indicator{
+      filter: invert(70%);
     }
   }
 }
