@@ -2131,7 +2131,7 @@ input.form-submit {
     width: auto !important; }
   #block-superfish-1 #superfish-1 .active-trail {
     background-color: #7bc !important; }
-    #block-superfish-1 #superfish-1 .active-trail a {
+    #block-superfish-1 #superfish-1 .active-trail > a {
       color: white;
       text-shadow: #38a 0px 1px 0px; }
 
