@@ -2084,6 +2084,10 @@ input.form-submit {
       background: #eee url(images/bleeds.png) 50% 0px no-repeat;
       padding: 0;
 
+      &:hover {
+        background-color: white;
+      }
+
       a {
         background-image: none;
         color: #333;
@@ -2108,6 +2112,12 @@ input.form-submit {
 
     .menuparent ul {
       width: auto !important;
+      overflow: visible !important;
+
+      li {
+        white-space: nowrap !important;
+        background-color: #ebebeb;
+      }
     }
 
     .active-trail {
