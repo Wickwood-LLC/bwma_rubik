@@ -2098,4 +2098,20 @@ input.form-submit {
   display: block;
   margin-top: 5px; }
 
+/****** MAIN MENU ******/
+#block-superfish-1 #superfish-1 {
+  display: table;
+  margin: auto; }
+  #block-superfish-1 #superfish-1 li {
+    border-bottom: 0;
+    float: left;
+    background: #eee url(images/bleeds.png) 50% 0px no-repeat; }
+    #block-superfish-1 #superfish-1 li a {
+      background-image: none;
+      color: #333;
+      text-shadow: #fff 0px 1px 0px;
+      min-width: 70px;
+      text-align: center;
+      padding: 5px 10px; }
+
 /*# sourceMappingURL=bwma_rubik_style.css.map */
