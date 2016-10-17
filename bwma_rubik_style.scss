@@ -2117,6 +2117,10 @@ input.form-submit {
       li {
         white-space: nowrap !important;
         background: #ebebeb;
+
+        &:hover {
+          background: white;
+        }
       }
     }
 
