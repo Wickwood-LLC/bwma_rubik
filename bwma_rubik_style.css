@@ -2128,11 +2128,11 @@ input.form-submit {
     -webkit-filter: invert(70%);
             filter: invert(70%); }
   #block-superfish-1 #superfish-1 .menuparent ul {
-    width: auto; }
+    width: auto !important; }
   #block-superfish-1 #superfish-1 .active-trail {
-    background-color: #7bc !important;
-    text-shadow: #38a 0px 1px 0px; }
+    background-color: #7bc !important; }
     #block-superfish-1 #superfish-1 .active-trail a {
-      color: white; }
+      color: white;
+      text-shadow: #38a 0px 1px 0px; }
 
 /*# sourceMappingURL=bwma_rubik_style.css.map */
