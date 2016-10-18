@@ -136,6 +136,33 @@ table.views-table .pane-user-field-identification {
     padding: 0 1em;
     background: white;
     top: -10px; }
+.node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px; }
+.node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 90px);
+          flex: 1 1 calc(100% - 90px);
+  min-width: 100px; }
+.node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
+  display: inline-block;
+  width: auto;
+  margin-left: 10px; }
+.node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title-options .form-type-radio {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px; }
 .node-type-loan .pane-loan-debit-information .field-label {
   width: 250px; }
 .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes > .field-items {
@@ -1329,6 +1356,33 @@ table#field-notes-values {
     padding: 0 1em;
     background: white;
     top: -10px; }
+.page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px; }
+.page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 90px);
+          flex: 1 1 calc(100% - 90px);
+  min-width: 100px; }
+.page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
+  display: inline-block;
+  width: auto;
+  margin-left: 10px; }
+.page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title-options .form-type-radio {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px; }
 .page-user-view .field-name-field-loans .pane-loan-debit-information .field-label {
   width: 250px; }
 .page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes > .field-items {
