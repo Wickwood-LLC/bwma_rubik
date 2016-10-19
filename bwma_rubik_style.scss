@@ -2172,6 +2172,53 @@ input.form-submit {
       }
     }
   }
+
+  #superfish-1-toggle {
+    display: block;
+    text-align: center;
+    background-color: #0F753D;
+    color: white;
+    border-radius: 10px;
+
+    &.sf-expanded {
+      background-color: #2ea328;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+
+  #superfish-1-accordion {
+    li {
+      background-color: white;
+
+      &.active-trail {
+        background-color: #0f753b;
+
+        &>a {
+          color: white;
+        }
+      }
+
+      &:last-child {
+        border-radius: 0 0 10px 10px;
+      }
+
+      &:hover {
+        a:hover {
+          background-color: #f8fff0;
+          color: #0f753b;
+        }
+      }
+
+      a {
+        border-top: 1px solid #f5f5f5;
+        color: #0f753b;
+
+        &:hover, &:focus {
+          background-color: #f8fff0;
+        }
+      }
+    }
+  }
 }
 
 
