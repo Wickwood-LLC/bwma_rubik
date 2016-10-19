@@ -2199,7 +2199,7 @@ input.form-submit {
       &.active-trail {
         background-color: #00728e;
 
-        &>a {
+        > a {
           color: white;
         }
       }
@@ -2211,7 +2211,7 @@ input.form-submit {
       &:hover {
         background-color: #9ec5d0;
 
-        a {
+        > a {
           color: white;
         }
       }

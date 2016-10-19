@@ -2275,7 +2275,7 @@ input.form-submit {
     border-radius: 0 0 10px 10px; }
   #block-superfish-1 #superfish-1-accordion li:hover {
     background-color: #9ec5d0; }
-    #block-superfish-1 #superfish-1-accordion li:hover a {
+    #block-superfish-1 #superfish-1-accordion li:hover > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li a {
     color: #00728e; }
