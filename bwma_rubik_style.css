@@ -2263,6 +2263,8 @@ input.form-submit {
   #block-superfish-1 #superfish-1-toggle.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0; }
+  #block-superfish-1 #superfish-1-toggle:hover {
+    background-color: #7bc; }
 #block-superfish-1 #superfish-1-accordion li {
   background-color: #e9eaec;
   line-height: 1.5;
