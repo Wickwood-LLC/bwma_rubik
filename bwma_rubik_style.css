@@ -2253,23 +2253,27 @@ input.form-submit {
 #block-superfish-1 #superfish-1-toggle {
   display: block;
   text-align: center;
-  background-color: #0F753D;
+  background-color: #008db0;
   color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  line-height: 30px;
+  height: 30px; }
   #block-superfish-1 #superfish-1-toggle.sf-expanded {
-    background-color: #2ea328;
+    background-color: #7bc;
     border-radius: 10px 10px 0 0; }
 #block-superfish-1 #superfish-1-accordion li {
-  background-color: white; }
+  background-color: white;
+  line-height: 20px; }
   #block-superfish-1 #superfish-1-accordion li.active-trail {
     background-color: #0f753b; }
     #block-superfish-1 #superfish-1-accordion li.active-trail > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li:last-child {
     border-radius: 0 0 10px 10px; }
-  #block-superfish-1 #superfish-1-accordion li:hover a:hover {
-    background-color: #f8fff0;
-    color: #0f753b; }
+  #block-superfish-1 #superfish-1-accordion li:hover {
+    background-color: #f8fff0; }
+    #block-superfish-1 #superfish-1-accordion li:hover a:hover {
+      color: #0f753b; }
   #block-superfish-1 #superfish-1-accordion li a {
     border-top: 1px solid #f5f5f5;
     color: #0f753b; }

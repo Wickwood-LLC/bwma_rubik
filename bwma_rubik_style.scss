@@ -2176,12 +2176,14 @@ input.form-submit {
   #superfish-1-toggle {
     display: block;
     text-align: center;
-    background-color: #0F753D;
+    background-color: #008db0;
     color: white;
     border-radius: 10px;
+    line-height: 30px;
+    height: 30px;
 
     &.sf-expanded {
-      background-color: #2ea328;
+      background-color: #7bc;
       border-radius: 10px 10px 0 0;
     }
   }
@@ -2189,6 +2191,7 @@ input.form-submit {
   #superfish-1-accordion {
     li {
       background-color: white;
+      line-height: 20px;
 
       &.active-trail {
         background-color: #0f753b;
@@ -2203,8 +2206,9 @@ input.form-submit {
       }
 
       &:hover {
+        background-color: #f8fff0;
+        
         a:hover {
-          background-color: #f8fff0;
           color: #0f753b;
         }
       }
