@@ -12,6 +12,26 @@
   div[class*="form-title"] {
     display: inline;
   }
+
+  .group-loan-custom-title {
+    .field-name-field-loan-custom-title {
+      @include flexifields(90px);
+    }
+
+    .field-name-field-loan-custom-title-options {
+      .form-radios {
+        display: inline-block;
+        width: auto;
+        margin-left: 10px;
+      }
+      .form-type-radio {
+        display: inline-block;
+        width: auto;
+        margin-right: 5px;
+      }
+    }
+  }
+
   .field-name-field-used-diy-form {
     display: inline-block;
     font-size: 13px;
