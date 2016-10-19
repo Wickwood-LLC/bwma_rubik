@@ -2209,16 +2209,12 @@ input.form-submit {
         background-color: #9ec5d0;
 
         a:hover {
-          color: #0f753b;
+          color: white;
         }
       }
 
       a {
         color: #00728e;
-
-        &:hover, &:focus {
-          background-color: #f8fff0;
-        }
       }
     }
   }

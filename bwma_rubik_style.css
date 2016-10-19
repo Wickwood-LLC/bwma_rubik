@@ -2273,10 +2273,8 @@ input.form-submit {
   #block-superfish-1 #superfish-1-accordion li:hover {
     background-color: #9ec5d0; }
     #block-superfish-1 #superfish-1-accordion li:hover a:hover {
-      color: #0f753b; }
+      color: white; }
   #block-superfish-1 #superfish-1-accordion li a {
     color: #00728e; }
-    #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
-      background-color: #f8fff0; }
 
 /*# sourceMappingURL=bwma_rubik_style.css.map */
