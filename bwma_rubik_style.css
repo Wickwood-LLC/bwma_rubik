@@ -2265,18 +2265,17 @@ input.form-submit {
   background-color: white;
   line-height: 20px; }
   #block-superfish-1 #superfish-1-accordion li.active-trail {
-    background-color: #0f753b; }
+    background-color: #00728e; }
     #block-superfish-1 #superfish-1-accordion li.active-trail > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li:last-child {
     border-radius: 0 0 10px 10px; }
   #block-superfish-1 #superfish-1-accordion li:hover {
-    background-color: #f8fff0; }
+    background-color: #9ec5d0; }
     #block-superfish-1 #superfish-1-accordion li:hover a:hover {
       color: #0f753b; }
   #block-superfish-1 #superfish-1-accordion li a {
-    border-top: 1px solid #f5f5f5;
-    color: #0f753b; }
+    color: #00728e; }
     #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
       background-color: #f8fff0; }
 
