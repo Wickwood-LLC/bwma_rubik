@@ -2179,8 +2179,10 @@ input.form-submit {
     background-color: #008db0;
     color: white;
     border-radius: 10px;
-    line-height: 30px;
-    height: 30px;
+    line-height: 1.5;
+    padding: 0.5em 1em;
+    font-size: 18px;
+    font-weight: bold;
 
     &.sf-expanded {
       background-color: #7bc;
@@ -2190,8 +2192,9 @@ input.form-submit {
 
   #superfish-1-accordion {
     li {
-      background-color: white;
-      line-height: 20px;
+      background-color: #e9eaec;
+      line-height: 1.5;
+      font-size: 16px;
 
       &.active-trail {
         background-color: #00728e;
