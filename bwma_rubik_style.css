@@ -2245,6 +2245,8 @@ input.form-submit {
       background: #ebebeb; }
       #block-superfish-1 #superfish-1 .menuparent ul li:hover {
         background: white; }
+      #block-superfish-1 #superfish-1 .menuparent ul li a {
+        text-align: left; }
   #block-superfish-1 #superfish-1 .active-trail {
     background-color: #7bc !important; }
     #block-superfish-1 #superfish-1 .active-trail > a {
