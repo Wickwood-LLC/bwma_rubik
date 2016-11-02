@@ -2220,7 +2220,7 @@ input.form-submit {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     padding: 0; }
     #block-superfish-1 #superfish-1 li:hover {
-      background: white; }
+      background: #f8f8f8; }
     #block-superfish-1 #superfish-1 li a {
       background-image: none;
       color: #333;
