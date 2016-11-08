@@ -1021,7 +1021,7 @@ table#field-notes-values {
   white-space: nowrap; }
   .page-user-edit #main-content .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input,
   .page-admin-people-create #main-content .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input {
-    width: 4em;
+    width: auto;
     text-align: center; }
 .page-user-edit #main-content .field-name-field-birthdate input,
 .page-admin-people-create #main-content .field-name-field-birthdate input {
