@@ -2115,6 +2115,9 @@ input.form-submit {
       &:last-child {
         border-radius: 0px 5px 5px 0px;
       }
+      &.firstandlast {
+        border-radius: 5px;
+      }
     }
 
     li {
