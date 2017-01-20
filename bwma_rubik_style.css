@@ -1926,12 +1926,14 @@ td:not([class]) {
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
   width: auto; }
 
-.pane-user-roles ul li {
-  margin-left: 0;
+.pane-user-roles ul {
+  margin: 0;
   padding: 0; }
-
-.pane-user-roles li.first {
-  text-transform: capitalize; }
+  .pane-user-roles ul li {
+    margin-left: 0;
+    padding: 0;
+    text-transform: capitalize;
+    list-style: none; }
 
 .node-appointment .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
@@ -2529,6 +2531,8 @@ input.form-submit {
   background-color: #77BBCD;
   border-color: #73b5c5;
   color: white; }
+  input.form-submit.field-add-more-submit {
+    display: table; }
 
 .views-exposed-form .reset-link-button {
   background-image: url(/sites/all/themes/rubik/images/buttons.png) !important;
