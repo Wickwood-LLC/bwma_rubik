@@ -2242,4 +2242,12 @@ input.form-submit {
   }
 }
 
-
+.page-user-login,
+.not-logged-in.page-user,
+.page-user-password {
+  .radix-layouts-content {
+    padding: 2em 1em 1em 1em;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+  }
+}

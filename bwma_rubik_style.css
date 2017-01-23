@@ -2632,4 +2632,11 @@ input.form-submit {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li a {
     color: #00728e; }
+
+.page-user-login .radix-layouts-content,
+.not-logged-in.page-user .radix-layouts-content,
+.page-user-password .radix-layouts-content {
+  padding: 2em 1em 1em 1em;
+  border: 1px solid #ccc;
+  margin-bottom: 1em; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */
