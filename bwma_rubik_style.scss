@@ -1958,6 +1958,29 @@ td:not([class]) {
   }
 }
 
+.node-type-article-post,
+.node-type-panopoly-news-article {
+  .pane-node-title {
+    text-align: center;
+
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  .pane-page-actions {
+    text-align: center;
+
+    .action-links {
+      float: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      margin-top: -10px;
+    }
+  }
+}
+
 .pane-panopoly-news-related-news-articles,
 .pane-related-news {
   padding-top: 2em;

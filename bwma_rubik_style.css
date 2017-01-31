@@ -2435,6 +2435,24 @@ td:not([class]) {
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
+.node-type-article-post .pane-node-title,
+.node-type-panopoly-news-article .pane-node-title {
+  text-align: center; }
+  .node-type-article-post .pane-node-title h1,
+  .node-type-panopoly-news-article .pane-node-title h1 {
+    margin-top: 0; }
+
+.node-type-article-post .pane-page-actions,
+.node-type-panopoly-news-article .pane-page-actions {
+  text-align: center; }
+  .node-type-article-post .pane-page-actions .action-links,
+  .node-type-panopoly-news-article .pane-page-actions .action-links {
+    float: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px; }
+
 .pane-panopoly-news-related-news-articles,
 .pane-related-news {
   padding-top: 2em; }
