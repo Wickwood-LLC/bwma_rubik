@@ -2658,6 +2658,9 @@ input.form-submit {
   border: 1px solid #ccc;
   margin-bottom: 1em; }
 
+#page-title h1.page-title {
+  font-size: 2em; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
