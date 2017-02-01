@@ -2659,7 +2659,8 @@ input.form-submit {
   margin-bottom: 1em; }
 
 #page-title h1.page-title {
-  font-size: 2em; }
+  font-size: 2em;
+  width: auto; }
 
 .blog-type-page h1.page-title {
   width: 100%;
