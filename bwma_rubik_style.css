@@ -147,8 +147,10 @@ table.views-table .pane-user-field-identification {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
@@ -237,8 +239,10 @@ table.views-table .pane-user-field-identification {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender label {
@@ -590,8 +594,10 @@ table.views-table .pane-user-field-identification {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
     @media (min-width: 480px) {
       .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number .form-item {
         display: -webkit-box;
@@ -618,8 +624,10 @@ table.views-table .pane-user-field-identification {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   @media (min-width: 480px) {
     .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name .form-item,
     .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag .form-item {
@@ -658,8 +666,10 @@ table.views-table .pane-user-field-identification {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
@@ -753,8 +763,10 @@ table.views-table .pane-user-field-identification {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
@@ -1091,8 +1103,10 @@ table#field-notes-values {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-user-edit #main-content .field-name-field-name-prefix label,
 .page-user-edit #main-content .field-name-field-first-name label,
@@ -1250,8 +1264,10 @@ table#field-notes-values {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   @media (min-width: 480px) {
     .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
     .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item,
@@ -1310,8 +1326,10 @@ table#field-notes-values {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   @media (min-width: 480px) {
     .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
     .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item,
@@ -1418,28 +1436,33 @@ table#field-notes-values {
   padding: 10px;
   box-sizing: border-box; }
 
-.page-user-edit .field-name-field-related-clients .views-exposed-form,
-.page-admin-people-create .field-name-field-related-clients .views-exposed-form {
-  margin: 0; }
-  .page-user-edit .field-name-field-related-clients .views-exposed-form .views-exposed-widgets,
-  .page-admin-people-create .field-name-field-related-clients .views-exposed-form .views-exposed-widgets {
-    display: block;
-    padding: 0;
-    width: 100%; }
-
-.page-user-edit .field-name-field-related-clients .views-exposed-widget,
-.page-admin-people-create .field-name-field-related-clients .views-exposed-widget {
-  width: 100%;
-  padding: 0; }
-
-.page-user-edit .field-name-field-related-clients .views-submit-button,
-.page-admin-people-create .field-name-field-related-clients .views-submit-button {
-  float: none;
-  padding: 0; }
-  .page-user-edit .field-name-field-related-clients .views-submit-button input,
-  .page-admin-people-create .field-name-field-related-clients .views-submit-button input {
-    display: table;
-    margin: 0 auto; }
+.page-user-edit .field-name-field-related-clients,
+.page-admin-people-create .field-name-field-related-clients {
+  position: relative;
+  margin-top: 1em; }
+  .page-user-edit .field-name-field-related-clients h3.pane-title,
+  .page-admin-people-create .field-name-field-related-clients h3.pane-title {
+    margin-left: 0.5em; }
+  .page-user-edit .field-name-field-related-clients .views-exposed-form,
+  .page-admin-people-create .field-name-field-related-clients .views-exposed-form {
+    margin: 0; }
+    .page-user-edit .field-name-field-related-clients .views-exposed-form .views-exposed-widgets,
+    .page-admin-people-create .field-name-field-related-clients .views-exposed-form .views-exposed-widgets {
+      display: block;
+      padding: 0;
+      width: 100%; }
+  .page-user-edit .field-name-field-related-clients .views-exposed-widget,
+  .page-admin-people-create .field-name-field-related-clients .views-exposed-widget {
+    width: 100%;
+    padding: 0; }
+  .page-user-edit .field-name-field-related-clients .views-submit-button,
+  .page-admin-people-create .field-name-field-related-clients .views-submit-button {
+    float: none;
+    padding: 0; }
+    .page-user-edit .field-name-field-related-clients .views-submit-button input,
+    .page-admin-people-create .field-name-field-related-clients .views-submit-button input {
+      display: table;
+      margin: 0 auto; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate input,
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate .description,
@@ -1595,8 +1618,10 @@ table#field-notes-values {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
@@ -1685,8 +1710,10 @@ table#field-notes-values {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender label {
@@ -1868,8 +1895,10 @@ td:not([class]) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   width: 100%; }
   .field-name-field-referral-client .form-item label,
   .field-name-field-referral-consultant .form-item label,
@@ -2002,8 +2031,10 @@ td:not([class]) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
@@ -2097,8 +2128,10 @@ td:not([class]) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
@@ -2676,16 +2709,20 @@ input.form-submit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
   .blog-type-page #main-content .panel-myriad-layout .row-one {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .main-content {
     -webkit-box-flex: 1;
@@ -2739,8 +2776,10 @@ input.form-submit {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     border-radius: 8px; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
       width: 50%;
@@ -2755,8 +2794,10 @@ input.form-submit {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
       @media (min-width: 420px) {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
           -webkit-box-flex: 1;
@@ -2789,8 +2830,10 @@ input.form-submit {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
@@ -2804,8 +2847,10 @@ input.form-submit {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
       @media (min-width: 375px) {
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row {
           min-width: 300px;

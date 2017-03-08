@@ -1393,6 +1393,13 @@ table#field-notes-values {
   }
 
   .field-name-field-related-clients {
+    position: relative;
+    margin-top: 1em;
+
+    h3.pane-title {
+      margin-left: 0.5em;
+    }
+
     .views-exposed-form {
       margin: 0;
 
