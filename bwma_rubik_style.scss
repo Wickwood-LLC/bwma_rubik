@@ -2495,5 +2495,15 @@ input.form-submit {
 }
 
 .field-name-field-reviewed-by .form-item {
-  @include flexifields(85px);
+  display: flex;
+  flex-flow: row wrap;
+
+  label {
+    width: 85px;
+    max-width: 100%;
+  }
+  input {
+    flex: 1 1 calc(100% - 85px);
+    min-width: 150px;
+  }
 }
