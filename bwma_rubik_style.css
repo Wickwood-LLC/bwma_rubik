@@ -2883,12 +2883,13 @@ input.form-submit {
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
 
-.field-name-field-review-date .form-item input {
-  display: inline-block; }
-
-.field-name-field-review-date .form-item .description {
-  display: inline-block;
-  width: auto; }
+.field-name-field-review-date {
+  display: block; }
+  .field-name-field-review-date .form-item input {
+    display: inline-block; }
+  .field-name-field-review-date .form-item .description {
+    display: inline-block !important;
+    width: auto !important; }
 
 .field-name-field-reviewed-by .form-item {
   display: -webkit-box;

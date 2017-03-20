@@ -2483,14 +2483,18 @@ input.form-submit {
   }
 }
 
-.field-name-field-review-date .form-item {
-  input {
-    display: inline-block;
-  }
+.field-name-field-review-date {
+  display: block;
 
-  .description {
-    display: inline-block;
-    width: auto;
+  .form-item {
+    input {
+      display: inline-block;
+    }
+
+    .description {
+      display: inline-block !important;
+      width: auto !important;
+    }
   }
 }
 
