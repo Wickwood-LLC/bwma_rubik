@@ -2897,13 +2897,16 @@ input.form-submit {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap; }
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .field-name-field-reviewed-by .form-item label {
-    width: 85px;
+    width: 90px;
     max-width: 100%; }
   .field-name-field-reviewed-by .form-item input {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 85px);
-            flex: 1 1 calc(100% - 85px);
+        -ms-flex: 1 1 calc(100% - 90px);
+            flex: 1 1 calc(100% - 90px);
     min-width: 150px; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */

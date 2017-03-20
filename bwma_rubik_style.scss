@@ -2497,13 +2497,14 @@ input.form-submit {
 .field-name-field-reviewed-by .form-item {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 
   label {
-    width: 85px;
+    width: 90px;
     max-width: 100%;
   }
   input {
-    flex: 1 1 calc(100% - 85px);
+    flex: 1 1 calc(100% - 90px);
     min-width: 150px;
   }
 }
