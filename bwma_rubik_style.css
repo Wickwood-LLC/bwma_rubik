@@ -2882,4 +2882,35 @@ input.form-submit {
       text-decoration: underline; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
+
+.field-name-field-review-date .form-item input {
+  display: inline-block; }
+
+.field-name-field-review-date .form-item .description {
+  display: inline-block;
+  width: auto; }
+
+.field-name-field-reviewed-by .form-item .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+
+.field-name-field-reviewed-by .form-item label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 85px;
+          flex: 0 0 85px; }
+
+.field-name-field-reviewed-by .form-item input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 85px);
+          flex: 1 1 calc(100% - 85px);
+  min-width: 100px; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */

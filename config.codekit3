@@ -7,7 +7,7 @@
 		"uuidString": "E5193F49-D232-4988-8B6A-B1F8F7595440"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -5281,18 +5281,22 @@
 	"\/images\/bleeds-rtl.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bleeds-rtl.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/bleeds.png": {
 		"ft": 32768,
 		"iS": 6180,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bleeds.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/bleeds.svg": {
 		"ft": 2097152,
@@ -5307,10 +5311,12 @@
 	"\/images\/buttons.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/buttons.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/buttons.svg": {
 		"ft": 2097152,
@@ -5325,10 +5331,12 @@
 	"\/images\/icons.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/icons.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/icons.svg": {
 		"ft": 2097152,
@@ -5343,10 +5351,12 @@
 	"\/images\/popup.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/popup.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/popup.svg": {
 		"ft": 2097152,
@@ -5361,58 +5371,72 @@
 	"\/images\/ui-icons-222222-256x240.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-222222-256x240.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ui-icons-454545-256x240.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-454545-256x240.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ui-icons-800000-256x240.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-800000-256x240.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ui-icons-888888-256x240.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-888888-256x240.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ui-icons-ffffff-256x240.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-ffffff-256x240.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/vrule.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/vrule.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/vtabs.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/vtabs.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/vtabs.svg": {
 		"ft": 2097152,
@@ -6126,6 +6150,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -6605,6 +6633,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -7205,7 +7237,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -7298,7 +7331,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
