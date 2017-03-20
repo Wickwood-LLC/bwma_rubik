@@ -2508,3 +2508,21 @@ input.form-submit {
     min-width: 150px;
   }
 }
+
+.secondary-tabs {
+  li, li>a {
+    display: none;
+  }
+
+  li.active, li.active>a {
+    display: block;
+  }
+
+  &:hover {
+    height: auto;
+
+    li, li>a {
+      display: block;
+    }    
+  }
+}

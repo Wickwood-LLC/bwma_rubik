@@ -2909,4 +2909,15 @@ input.form-submit {
         -ms-flex: 1 1 calc(100% - 90px);
             flex: 1 1 calc(100% - 90px);
     min-width: 150px; }
+
+.secondary-tabs li, .secondary-tabs li > a {
+  display: none; }
+
+.secondary-tabs li.active, .secondary-tabs li.active > a {
+  display: block; }
+
+.secondary-tabs:hover {
+  height: auto; }
+  .secondary-tabs:hover li, .secondary-tabs:hover li > a {
+    display: block; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */
