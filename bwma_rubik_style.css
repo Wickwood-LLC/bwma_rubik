@@ -350,14 +350,17 @@ table.views-table .pane-user-field-identification {
   background: #FFF;
   margin: 40px auto;
   position: relative;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .node-type-press-release.panelized-node .content-main:before, .node-type-press-release.panelized-node .content-main:after {
     content: "";
     position: absolute;
     z-index: -1;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     top: 50%;
     bottom: 0;
     left: 10px;
@@ -434,7 +437,8 @@ table.views-table .pane-user-field-identification {
     display: inline-block;
     font-size: 13px; }
   .form-item input[type="text"] {
-    box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
 .form-item.form-type-date-combo {
   margin-bottom: 0; }
@@ -653,7 +657,8 @@ table.views-table .pane-user-field-identification {
   padding: 0; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
@@ -1382,7 +1387,6 @@ table#field-notes-values {
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes,
 .page-admin-people-create .field-name-field-bwma-programs-enrolled .form-checkboxes {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2; }
 
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper,
@@ -1424,7 +1428,8 @@ table#field-notes-values {
 .page-user-edit .field-name-field-address label,
 .page-admin-people-create .field-name-field-address label {
   width: 70px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-user-edit .field-name-field-address select.state,
 .page-admin-people-create .field-name-field-address select.state {
@@ -1434,7 +1439,8 @@ table#field-notes-values {
 .page-admin-people-create .pane-user-field-related-clients .pane-content {
   border: 1px solid #CCCCCC;
   padding: 10px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-user-edit .field-name-field-related-clients h3.pane-title,
 .page-admin-people-create .field-name-field-related-clients h3.pane-title {
@@ -1473,7 +1479,6 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios,
 .page-admin-people-create .field-name-field-group .form-radios {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios,
@@ -1495,7 +1500,6 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-roles .form-checkboxes,
 .page-admin-people-create .form-item-roles .form-checkboxes {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label,
@@ -2017,7 +2021,8 @@ td:not([class]) {
   width: calc(100% - 140px); }
 
 .page-admin-field-edit-profile2-field-loans .ief-form * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
@@ -2586,7 +2591,8 @@ input.form-submit {
 
 .views-exposed-form .reset-link-button {
   background-image: url(/sites/all/themes/rubik/images/buttons.png) !important;
-  box-shadow: #ddd 0 1px 1px;
+  -webkit-box-shadow: #ddd 0 1px 1px;
+          box-shadow: #ddd 0 1px 1px;
   cursor: pointer;
   padding: 3px 10px;
   color: #333;
@@ -2687,7 +2693,6 @@ input.form-submit {
 .not-logged-in.page-user .radix-layouts-content,
 .page-user-password .radix-layouts-content {
   padding: 2em 1em 1em 1em;
-  border: 1px solid #ccc;
   margin-bottom: 1em; }
 
 #page-title h1.page-title {
