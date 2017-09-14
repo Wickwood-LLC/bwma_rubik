@@ -331,13 +331,14 @@
   .node-loan,
   .boxed {
     position: relative;
+    background: none;
 
     h3 {
       position: absolute;
       margin-left: 0;
       padding: 0 1em;
       background: white;
-      top: -10px;
+      top: -22px;
     }
   }
 

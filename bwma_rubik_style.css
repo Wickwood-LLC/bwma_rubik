@@ -130,14 +130,15 @@ table.views-table .pane-user-field-identification {
 
 .node-type-loan .node-loan,
 .node-type-loan .boxed {
-  position: relative; }
+  position: relative;
+  background: none; }
   .node-type-loan .node-loan h3,
   .node-type-loan .boxed h3 {
     position: absolute;
     margin-left: 0;
     padding: 0 1em;
     background: white;
-    top: -10px; }
+    top: -22px; }
 
 .node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title .form-item {
   display: -webkit-box;
@@ -1604,14 +1605,15 @@ table#field-notes-values {
 
 .page-user-view .field-name-field-loans .node-loan,
 .page-user-view .field-name-field-loans .boxed {
-  position: relative; }
+  position: relative;
+  background: none; }
   .page-user-view .field-name-field-loans .node-loan h3,
   .page-user-view .field-name-field-loans .boxed h3 {
     position: absolute;
     margin-left: 0;
     padding: 0 1em;
     background: white;
-    top: -10px; }
+    top: -22px; }
 
 .page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title .form-item {
   display: -webkit-box;
