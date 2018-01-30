@@ -2533,9 +2533,9 @@ input.form-submit {
 
 form[action="/contact-bwma-org"] {
   .form-item {
-    & [class*="first-name"],
-    & [class*="last-name"],
-    & [class*="email-address"] {
+    &[class*="first-name"],
+    &[class*="last-name"],
+    &[class*="email-address"] {
       display: flex;
       flex-flow: row wrap;
       align-items: center;
