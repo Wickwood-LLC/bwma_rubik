@@ -2531,21 +2531,48 @@ input.form-submit {
   }
 }
 
-form[action="/contact-bwma-org"] {
-  .form-item {
-    &[class*="first-name"],
-    &[class*="last-name"],
-    &[class*="email-address"] {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: center;
+.webform-component-textfield,
+.webform-component-email,
+.webform-component-phone {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-flow: row wrap;
 
-      label {
-        width: 110px;
-      }
-      input {
-        flex: 1 1 200px;
-      }
+  label {
+    min-width: 125px;
+  }
+  input {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+}
+.webform-component-addressfield {
+  @include flexifields(100px);
+
+  .form-item {
+    padding-left: 1.5em;
+
+    select {
+      flex: 1 1 calc(100% - 100px);
     }
+    input, select {
+      min-width: 150px;
+    }
+  }
+
+  [class*="mailing-address-country"] select {
+    max-width: 380px;
+  }
+  [class*="mailing-address-administrative-area"] select {
+    max-width: 418px;
+  }
+  [class*="mailing-address-postal-code"] input {
+    max-width: 100px;
+  }
+}
+.webform-component-phone {
+  input {
+    max-width: 240px;
   }
 }

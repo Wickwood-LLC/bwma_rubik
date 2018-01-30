@@ -2929,21 +2929,74 @@ input.form-submit {
   .secondary-tabs:hover li, .secondary-tabs:hover li > a {
     display: block; }
 
-form[action="/contact-bwma-org"] .form-item[class*="first-name"], form[action="/contact-bwma-org"] .form-item[class*="last-name"], form[action="/contact-bwma-org"] .form-item[class*="email-address"] {
+.webform-component-textfield,
+.webform-component-email,
+.webform-component-phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  form[action="/contact-bwma-org"] .form-item[class*="first-name"] label, form[action="/contact-bwma-org"] .form-item[class*="last-name"] label, form[action="/contact-bwma-org"] .form-item[class*="email-address"] label {
-    width: 110px; }
-  form[action="/contact-bwma-org"] .form-item[class*="first-name"] input, form[action="/contact-bwma-org"] .form-item[class*="last-name"] input, form[action="/contact-bwma-org"] .form-item[class*="email-address"] input {
+          flex-flow: row wrap; }
+  .webform-component-textfield label,
+  .webform-component-email label,
+  .webform-component-phone label {
+    min-width: 125px; }
+  .webform-component-textfield input,
+  .webform-component-email input,
+  .webform-component-phone input {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 200px;
-            flex: 1 1 200px; }
+            flex: 1 1 200px;
+    min-width: 200px; }
+
+.webform-component-addressfield .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+
+.webform-component-addressfield label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px; }
+
+.webform-component-addressfield input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
+  min-width: 100px; }
+
+.webform-component-addressfield .form-item {
+  padding-left: 1.5em; }
+  .webform-component-addressfield .form-item select {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 100px);
+            flex: 1 1 calc(100% - 100px); }
+  .webform-component-addressfield .form-item input, .webform-component-addressfield .form-item select {
+    min-width: 150px; }
+
+.webform-component-addressfield [class*="mailing-address-country"] select {
+  max-width: 380px; }
+
+.webform-component-addressfield [class*="mailing-address-administrative-area"] select {
+  max-width: 418px; }
+
+.webform-component-addressfield [class*="mailing-address-postal-code"] input {
+  max-width: 100px; }
+
+.webform-component-phone input {
+  max-width: 240px; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */
