@@ -7,7 +7,7 @@
 		"uuidString": "E5193F49-D232-4988-8B6A-B1F8F7595440"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -6081,7 +6081,7 @@
 	"\/theme-settings.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/theme-settings.php",
 		"oF": 0
 		}
@@ -6102,6 +6102,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -6665,6 +6666,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

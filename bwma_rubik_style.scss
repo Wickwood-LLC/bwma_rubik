@@ -2288,12 +2288,36 @@ input.form-submit {
   padding-bottom: 0;
 }
 
+/********** Articles, News, Press Release **********/
 .blog-type-page {
   h1.page-title {
     width: 100%;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
+      text-align: center;
+      margin-bottom: 0;
+      display: block;
+  }
+
+  .views-exposed-form {
+    .views-exposed-widget {
+      display: inline-block;
+      float: none;
+      min-width: 0;
+      max-width: 100%;
+
+      .form-item {
+        input, select {
+          min-width: 0;
+          max-width: 100%;
+        }
+      }
+
+      .form-submit {
+        margin-top: 0;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+      }
+    }
   }
   
   #main-content .panel-myriad-layout {
@@ -2302,58 +2326,99 @@ input.form-submit {
     padding: 1em;
     padding-top: 0px;
 
+    .views-exposed-widgets {
+      .views-reset-button {
+        float: right;
+      }
+      .views-widget-filter-published_at {
+        .views-operator, .views-widget {
+          margin-left: 1em;
+        }
+        .views-widget {
+          margin-top: 0.5em;
+        }
+      }
+      .views-widget-filter-type .views-widget {
+        margin-left: 1em;
+      }
+
+      label:not(.option):after {
+        content: ":";
+      }
+    }
+
     .row-one {
+      width: 100%;
       display: flex;
       flex-flow: row wrap;
-      width: 100%;
+
+      @include breakpoint(944px) {
+        display: block;
+      }
     }
 
     .main-content {
+      width: 100%;
       flex: 1 100%;
       padding: 0.5em;
 
-        @include breakpoint(626px) {
-          min-width: 560px;
-          flex: 3 0 560px;
-        }
+      @include breakpoint(626px) {
+        min-width: 560px;
+        flex: 3 0 560px;
+      }
     }
 
     .sidebar-content {
       flex: 1 1 0;
-        margin: 0.5em;
+      margin: 0.5em;
+      min-width: 0;
+      max-width: 100%;
+      float: right;
+      width: calc((100% / 3) - 23px);
+      position: relative;
+      z-index: 1;
 
-        @include breakpoint(375px) {
-        max-width: 300px;
-        flex: 1 1 300px;
+      @include breakpoint(375px) {
+        min-width: 300px;
+        flex: 1 1 250px;
+      }
+      @include breakpoint(944px) {
+        min-width: 0;
+      }
 
+      .pane-articles-test-panel-pane-7 {
+        .view-content {
+          column-width: 150px;
+        }
+      }
+
+      > div:first-child {
+        margin-top: 0;
       }
 
       .boxed {
-        background-color: white;
-        margin: 0 0 1em 0;
-
-        .pane-title {
-          position: static;
-          margin-bottom: 0.5em;
-          padding: 0;
-          width: 100%;
-          text-align: center;
-        }
-
-        ul {
-          padding-left: 20px;
-        }
+        padding-top: 2em;
       }
 
-      ul {
-        margin: 0;
+      [data-pane] {
+        margin: 1em 0;
+
+        .boxed {
+          margin: 0;
+        }
       }
     }
 
     .view-display-id-panel_pane_1 .view-content {
+      padding: 0.5em;
     }
 
     .view-display-id-panel_pane_2 {
+      .item-list ul li {
+        border-bottom: 0;
+        margin-left: 0;
+        padding: 0;
+      }
       .pager {
         margin-bottom: 0;
 
@@ -2368,32 +2433,53 @@ input.form-submit {
       }
     }
 
-    .pane-articles-test-panel-pane-1,
-    .pane-news-test-panel-pane-1,
-    .pane-press-releases-test-panel-pane-1 {
-      width: 100%;
+    .pane-articles-test-panel-pane-6,
+    .pane-news-test-panel-pane-6,
+    .pane-press-releases-test-panel-pane-6,
+    .pane-panopoly-faq-panel-pane-4 {
+      box-sizing: border-box;
+      margin: 0 0 1em 0;
+      height: 100%;
+    }
+    .pane-panopoly-faq-panel-pane-4 {
+      height: auto;
     }
 
-    .featured-display .view-content {
-      display: flex;
-      flex-flow: row wrap;
-      border-radius: 8px;
+    .featured-display {
+      height: 100%;
 
+      .view-content {
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        height: 100%;
+
+        @include breakpoint(944px) {
+          display: block;
+        }
+  
         .views-row {
-          width: 50%;
+          width: calc((100% / 3) - 42px);
           flex: 1 100%;
-          padding: 1em;
-          margin: 0 0.5em;
-          border: 2px solid #cccccc;
-          background-color: white;
+          padding: 0.5em;
+          margin: 0.5em;
+          border: 1px solid #cccccc;
           font-size: 14px;
-          display: flex;
+          display: inline-block;
           flex-flow: column nowrap;
+          vertical-align: top;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px;
+          }
+          @include breakpoint(944px) {
+            min-width: 0;
+          }
+
+          .views-field-title-field, .views-field-title-field p {
+            text-align: center;
           }
 
           .featured-image img {
@@ -2403,14 +2489,18 @@ input.form-submit {
 
           .views-field-body {
             flex: 1;
+            display: flex;
+
+            iframe {
+              max-width: 100%;
+            }
           }
         }
 
-        .views-field-title h2 {
-          text-align: center;
-          margin: 0;
-          line-height: 1;
+        .scroll-pane {
+          overflow: auto;
         }
+
         .views-field-published-at {
           text-align: center;
           margin-bottom: 1em;
@@ -2421,11 +2511,84 @@ input.form-submit {
           margin-bottom: 1em;
         }
         .views-field-body img {
-          width: 100%;
+          display: block;
           height: auto;
+          margin: auto;
         }
+      }
     }
 
+    .pane-card-cycles-card-blog .view-content {
+      display: flex;
+      flex-flow: row wrap;
+
+      .views-slideshow-cycle-main-frame-row {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      .views-row {
+        flex: 1 30%;
+        margin: 0.5em;
+        padding: 0;
+
+        @include breakpoint(375px) {
+          min-width: 300px;
+          flex: 1 1 300px;
+        }
+
+        .panel-display {
+          padding: 0;
+        }
+        .panel-flexible {
+          padding: 1em;
+        }
+
+        h2 {
+          margin: 0.5em 0 0 0;
+          text-align: center;
+        }
+        h3 {
+          margin: 0 0 0.5em 0;
+          text-align: center;
+        }
+
+        .col-1, .col-2 {
+          width: 100%;
+        }
+        .col-1 {
+          padding: 1em;
+          text-align: center;
+        }
+        .col-2 {
+          padding: 0 1em 1em 1em;
+        }
+
+        .pane-node-field-card-image {
+          text-align: center;
+        }
+
+        .field--name-field-amazon-book-listing {
+          text-align: center;
+        }
+
+        .pane-node-field-call-to-action {
+          text-align: center;
+        }
+      }     
+    }
+
+    .pane-card-cycles-card-slideshow {
+      position: relative;
+
+      .col-1 {
+        width: 100%;
+      }
+    }
+
+    .main-display {
+      width: 100%;
+    }
     .main-display .view-content {
       display: flex;
       flex-flow: row wrap;
@@ -2440,19 +2603,18 @@ input.form-submit {
           flex-flow: column nowrap;
 
         @include breakpoint(375px) {
-          min-width: 300px;
-          flex: 1 300px;
+          min-width: 250px;
+          flex: 1 250px;
           font-size: 18px;
         }
 
         .views-field-field-featured-image,
-        .views-field-title {
+        .views-field-title-field, 
+        .views-field-title-field p {
           text-align: center;
           
           h3 {
             margin-bottom: 0;
-            position: static;
-            line-height: 1.2;
           }
         }
         .views-field-name,
@@ -2463,6 +2625,28 @@ input.form-submit {
 
         .views-field-body {
           flex-grow: 1;
+
+          .field-content {
+            margin-bottom: 1em;
+            line-height: 1.35em;
+          }
+
+          iframe {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .views-field-field-categories {
+          font-weight: bold;
+          font-size: 0.8em;
+        }
+        .views-label-field-categories {
+          float: left;
+          margin-right: 4px;
+        }
+        .views-field-type {
+          font-weight: bold;
+          font-size: 0.8em;
         }
       }
     }
@@ -2480,6 +2664,21 @@ input.form-submit {
         color: #0f753b;
       }
     }
+  }
+
+  .views-field-title-field p,
+  .views-field-title-field h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .views-field-field-categories {
+    font-weight: bold;
+    font-size: 0.8em;
+    clear: both;
+  }
+  .views-label-field-categories {
+    float: left;
+    margin-right: 4px;
   }
 }
 
