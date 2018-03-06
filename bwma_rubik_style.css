@@ -2855,7 +2855,9 @@ input.form-submit {
         -webkit-box-direction: normal;
             -ms-flex-flow: column nowrap;
                 flex-flow: column nowrap;
-        vertical-align: top; }
+        vertical-align: top;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box; }
         @media (min-width: 420px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
             -webkit-box-flex: 1;

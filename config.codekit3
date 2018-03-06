@@ -6061,6 +6061,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/min\/bwma_rubik-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/bwma_rubik-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/min\/full_rubik-min.js": {
 		"ft": 64,
 		"ma": 0,

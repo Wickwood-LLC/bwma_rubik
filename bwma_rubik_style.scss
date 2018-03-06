@@ -2468,6 +2468,7 @@ input.form-submit {
           display: inline-block;
           flex-flow: column nowrap;
           vertical-align: top;
+          box-sizing: content-box;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
