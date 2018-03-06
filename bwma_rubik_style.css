@@ -3027,7 +3027,9 @@ input.form-submit {
 
 .blog-type-page .views-field-title p,
 .blog-type-page .views-field-title h2 {
-  text-align: center; }
+  text-align: center;
+  line-height: 1.2;
+  margin: 0; }
 
 .blog-type-page .views-field-field-categories {
   font-weight: bold;
