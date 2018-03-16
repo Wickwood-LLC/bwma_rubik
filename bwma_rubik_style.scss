@@ -2297,6 +2297,74 @@ input.form-submit {
       display: block;
   }
 
+  .pane-card-cycles-card-blog .view-content {
+    display: flex;
+    flex-flow: row wrap;
+
+    .views-slideshow-cycle-main-frame-row {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    .views-row {
+      flex: 1 30%;
+      margin: 0.5em;
+      padding: 0;
+
+      @include breakpoint(375px) {
+        min-width: 300px;
+        flex: 1 1 300px;
+      }
+
+      .panel-display {
+        padding: 0;
+      }
+      .panel-flexible {
+        padding: 1em;
+      }
+
+      h2 {
+        margin: 0.5em 0 0 0;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 0 0.5em 0;
+        text-align: center;
+      }
+
+      .col-1, .col-2 {
+        width: 100%;
+      }
+      .col-1 {
+        padding: 1em;
+        text-align: center;
+      }
+      .col-2 {
+        padding: 0 1em 1em 1em;
+      }
+
+      .pane-node-field-card-image {
+        text-align: center;
+      }
+
+      .field--name-field-amazon-book-listing {
+        text-align: center;
+      }
+
+      .pane-node-field-call-to-action {
+        text-align: center;
+      }
+    }     
+  }
+  .pane-card-cycles-card-slideshow,
+  .pane-card-cycles-card-slideshow-clone, {
+    position: relative;
+
+    .col-1 {
+      width: 100%;
+    }
+  }
+
   .views-exposed-form {
     .views-exposed-widget {
       display: inline-block;
@@ -2468,7 +2536,6 @@ input.form-submit {
           display: inline-block;
           flex-flow: column nowrap;
           vertical-align: top;
-          box-sizing: content-box;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
@@ -2479,7 +2546,7 @@ input.form-submit {
             min-width: 0;
           }
 
-          .views-field-title, .views-field-title p {
+          .views-field-title-field, .views-field-title-field p {
             text-align: center;
           }
 
@@ -2519,78 +2586,6 @@ input.form-submit {
       }
     }
 
-    .pane-card-cycles-card-blog .view-content {
-      display: flex;
-      flex-flow: row wrap;
-
-      .views-slideshow-cycle-main-frame-row {
-        display: flex;
-        flex-flow: row wrap;
-      }
-
-      .views-row {
-        flex: 1 30%;
-        margin: 0.5em;
-        padding: 0;
-
-        @include breakpoint(375px) {
-          min-width: 300px;
-          flex: 1 1 300px;
-        }
-
-        .panel-display {
-          padding: 0;
-        }
-        .panel-flexible {
-          padding: 1em;
-        }
-
-        h2 {
-          margin: 0.5em 0 0 0;
-          text-align: center;
-        }
-        h3 {
-          margin: 0 0 0.5em 0;
-          text-align: center;
-        }
-
-        .col-1, .col-2 {
-          width: 100%;
-        }
-        .col-1 {
-          padding: 1em;
-          text-align: center;
-        }
-        .col-2 {
-          padding: 0 1em 1em 1em;
-        }
-
-        .pane-node-field-card-image {
-          text-align: center;
-        }
-
-        .field--name-field-amazon-book-listing {
-          text-align: center;
-        }
-
-        .pane-node-field-call-to-action {
-          text-align: center;
-        }
-      }     
-    }
-
-    .pane-card-cycles-card-slideshow {
-      position: relative;
-
-      .views-slideshow-cycle-main-frame-row {
-        width: 100% !important;
-      }
-
-      .col-1 {
-        width: 100%;
-      }
-    }
-
     .main-display {
       width: 100%;
     }
@@ -2614,8 +2609,8 @@ input.form-submit {
         }
 
         .views-field-field-featured-image,
-        .views-field-title, 
-        .views-field-title p {
+        .views-field-title-field, 
+        .views-field-title-field p {
           text-align: center;
           
           h3 {
@@ -2671,10 +2666,9 @@ input.form-submit {
     }
   }
 
-  .views-field-title p,
-  .views-field-title h2 {
+  .views-field-title-field p,
+  .views-field-title-field h2 {
     text-align: center;
-    line-height: 1.2;
     margin: 0;
   }
   .views-field-field-categories {
