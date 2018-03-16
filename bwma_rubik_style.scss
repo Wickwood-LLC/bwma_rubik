@@ -2360,56 +2360,67 @@ input.form-submit {
   .pane-card-cycles-card-slideshow-clone, {
     position: relative;
 
-    .views-row {
-      flex: 1 30%;
-      margin: 0.5em;
-      padding: 0;
+    .col-1 {
+      width: 100%;
+    }
+  }
 
-      @include breakpoint(375px) {
-        min-width: 300px;
-        flex: 1 1 300px;
-      }
+  .field-name-field-call-to-action {
+    background-color: #77BBCD;
+    border-color: #73b5c5;
+    color: white;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: #ddd 0 1px 1px;
+    margin-top: 1em;
 
-      .panel-display {
-        padding: 0;
-      }
-      .panel-flexible {
-        padding: 1em;
-      }
+    a {
+      color: white;
+    }
+  }
 
-      h2 {
-        margin: 0.5em 0 0 0;
-        text-align: center;
-      }
-      h3 {
-        margin: 0 0 0.5em 0;
-        text-align: center;
-      }
+  .view-card-cycles {
+    .vscc-controls {
+      text-align: center;
+    }
+    .vscc_controls_pause {
+      display: inline-block;
+    }
 
-      .col-1, .col-2 {
-        width: 100%;
-      }
-      .col-1 {
-        padding: 1em;
-        text-align: center;
-        width: 100%;
-      }
-      .col-2 {
-        padding: 0 1em 1em 1em;
-      }
+    .views-slideshow-controls-top {
+      position: absolute;
+      top: 7px;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+    }
 
-      .pane-node-field-card-image {
-        text-align: center;
-      }
+    .views-slideshow-cycle-main-frame,
+    .views-slideshow-cycle-main-frame-row {
+      width: 100% !important;
+    }
 
-      .field--name-field-amazon-book-listing {
-        text-align: center;
-      }
+    .views-slideshow-cycle-main-frame-row-item {
+      padding-top: 2em;
+      text-align: center;
+      margin: 0;
+    }
 
-      .pane-node-field-call-to-action {
-        text-align: center;
-      }
-    } 
+    div.field-type-asin {
+      border: 0px;
+    }
+
+    .field-name-field-amazon-book-listing img {
+      width: 150px;
+      height: auto;
+    }
   }
 
   .views-exposed-form {
