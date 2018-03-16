@@ -5854,10 +5854,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bwma_rubik_style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/bwma_rubik_style.css.map": {
 		"cB": 0,
