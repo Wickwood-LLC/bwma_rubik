@@ -2582,6 +2582,10 @@ input.form-submit {
     .pane-card-cycles-card-slideshow {
       position: relative;
 
+      .views-slideshow-cycle-main-frame-row {
+        width: 100% !important;
+      }
+
       .col-1 {
         width: 100%;
       }
@@ -2682,6 +2686,10 @@ input.form-submit {
     float: left;
     margin-right: 4px;
   }
+}
+
+.vscc-controls {
+  text-align: center;
 }
 
 .field-name-field-review-date {

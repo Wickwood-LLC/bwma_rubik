@@ -2948,6 +2948,8 @@ input.form-submit {
         text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow {
     position: relative; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow .views-slideshow-cycle-main-frame-row {
+      width: 100% !important; }
     .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow .col-1 {
       width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .main-display {
@@ -3039,6 +3041,9 @@ input.form-submit {
 .blog-type-page .views-label-field-categories {
   float: left;
   margin-right: 4px; }
+
+.vscc-controls {
+  text-align: center; }
 
 .field-name-field-review-date {
   display: block; }
