@@ -3239,4 +3239,19 @@ input.form-submit {
 
 .webform-component-phone input {
   max-width: 240px; }
+
+@media (min-width: 944px) {
+  .page-categories .col-md-8 {
+    width: 66.66666666666666%;
+    width: calc((100% / 3) * 2);
+    float: left; }
+  .page-categories .col-md-4 {
+    width: 33.33333333333333%;
+    width: calc(100% / 3);
+    float: left; } }
+
+.page-categories .pane-views-exp-categories-panel-pane-2 .actions {
+  position: absolute;
+  right: 10px;
+  bottom: 10px; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */

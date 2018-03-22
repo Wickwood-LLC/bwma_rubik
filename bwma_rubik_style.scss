@@ -2859,3 +2859,26 @@ input.form-submit {
     max-width: 240px;
   }
 }
+
+.page-categories {
+  @include breakpoint(944px) {
+    .col-md-8 {
+      width: 66.66666666666666%;
+      width: calc((100% / 3) * 2);
+      float: left;
+    }
+    .col-md-4 {
+      width: 33.33333333333333%;
+      width: calc(100% / 3);
+      float: left;
+    }
+  }
+
+  .pane-views-exp-categories-panel-pane-2 {
+    .actions {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+}
