@@ -2881,4 +2881,21 @@ input.form-submit {
       bottom: 10px;
     }
   }
+
+  .pane-categories-panel-pane-2 {
+    .view-content {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: stretch;
+      justify-content: center;
+    }
+    .views-row {
+      flex: 1 1 150px;
+      margin: 0.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
 }
