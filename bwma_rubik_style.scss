@@ -2919,5 +2919,9 @@ input.form-submit {
     display: inline-flex;
     align-items: flex-end;
     justify-content: flex-end;
+
+    .views-exposed-form .views-exposed-widget .form-submit {
+      position: static;
+    }
   }
 }

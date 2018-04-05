@@ -3310,4 +3310,6 @@ input.form-submit {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
+  #views-exposed-form-panopoly-taxonomy-panel-pane-3 .actions .views-exposed-form .views-exposed-widget .form-submit {
+    position: static; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */
