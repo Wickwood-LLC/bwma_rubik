@@ -2318,9 +2318,17 @@ input.form-submit {
       display: block;
   }
 
+  .pane-card-cycles-card-blog {
+    width: 100%;
+  }
+
   .pane-card-cycles-card-blog .view-content {
     display: flex;
     flex-flow: row wrap;
+
+    .views-slideshow-cycle-processed {
+      width: 100%;
+    }
 
     .views-slideshow-cycle-main-frame-row {
       display: flex;
@@ -2897,6 +2905,14 @@ input.form-submit {
       align-items: center;
       text-align: center;
     }
+  }
+}
+
+.view-empty {
+  margin: 0 0.5em;
+
+  p {
+    width: 100%;
   }
 }
 
