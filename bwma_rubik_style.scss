@@ -2899,3 +2899,25 @@ input.form-submit {
     }
   }
 }
+
+#views-exposed-form-panopoly-taxonomy-panel-pane-3 {
+  .views-widget-filter-type {
+    flex: 100%;
+
+    .views-widget {
+      display: inline-block;
+    }
+    .form-item.form-type-bef-checkbox {
+        display: inline-block;
+        width: auto;
+        margin-right: 1em;
+    }
+  }
+
+  .actions {
+    flex: 1;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}

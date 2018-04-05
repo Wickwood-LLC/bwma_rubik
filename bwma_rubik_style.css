@@ -3285,4 +3285,29 @@ input.form-submit {
       -ms-flex-align: center;
           align-items: center;
   text-align: center; }
+
+#views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
+  #views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type .views-widget {
+    display: inline-block; }
+  #views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type .form-item.form-type-bef-checkbox {
+    display: inline-block;
+    width: auto;
+    margin-right: 1em; }
+
+#views-exposed-form-panopoly-taxonomy-panel-pane-3 .actions {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
 /*# sourceMappingURL=bwma_rubik_style.css.map */
