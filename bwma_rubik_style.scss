@@ -2481,6 +2481,10 @@ input.form-submit {
     padding: 1em;
     padding-top: 0px;
 
+    > div {
+      flex: 100%;
+    }
+
     .views-exposed-widgets {
       .views-reset-button {
         float: right;
@@ -2768,6 +2772,12 @@ input.form-submit {
     float: left;
     margin-right: 4px;
   }
+}
+
+.pane-card-cycles-card-slideshow-clone {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
 }
 
 .vscc-controls {

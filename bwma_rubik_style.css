@@ -2884,6 +2884,10 @@ input.form-submit {
           flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
+  .blog-type-page #main-content .panel-myriad-layout > div {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-reset-button {
     float: right; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator, .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
@@ -3131,6 +3135,11 @@ input.form-submit {
 .blog-type-page .views-label-field-categories {
   float: left;
   margin-right: 4px; }
+
+.pane-card-cycles-card-slideshow-clone {
+  width: 100%;
+  max-width: 350px;
+  margin: auto; }
 
 .vscc-controls {
   text-align: center; }
