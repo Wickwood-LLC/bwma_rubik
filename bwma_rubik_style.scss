@@ -1985,70 +1985,256 @@ td:not([class]) {
 }
 
 .node-type-article-post,
-.node-type-panopoly-news-article {
-  .pane-node-title {
-    text-align: center;
+.node-type-panopoly-news-article,
+.node-type-panopoly-faq {
+  .field-name-field-featured-image {
+    width: 100%;
 
-    h1 {
-      margin-top: 0;
+      @include breakpoint(481px) {
+        margin: 0 1em 1em 0;
+        width: 50%;
+        float: left;
+      }
+
+      img {
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        width: 100%;
+      }
+  }
+  .field-name-field-categories {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1em;
+  }
+
+  .radix-layouts-content {
+    flex: 1 100%;
+    padding-right: 0;
+
+    @include breakpoint(848px) {
+      flex: 3 0 560px;
+      min-width: 560px;
+      padding: 0.5em;
     }
   }
 
-  .pane-page-actions {
-    text-align: center;
+  .radix-layouts-sidebar {
+    flex: 1 300px;
+    min-width: 300px;
+    padding-left: 0;
 
-    .action-links {
-      float: none;
-      display: inline-block;
-      padding: 0;
-      margin: 0;
-      margin-top: -10px;
+    @include breakpoint(848px) {
+      flex: 1 1 250px;
+      padding: 0.5em;
+    }
+
+    .boxed {
+      padding-top: 2em;
     }
   }
 }
 
-.pane-panopoly-news-related-news-articles,
-.pane-related-news {
-  padding-top: 2em;
+.node-type-article-post,
+.node-type-panopoly-news-article,
+.node-type-panopoly-faq {
+  .field-name-field-featured-image {
+    width: 100%;
 
-  @include breakpoint(351px) {
-    padding-top: 1.5em;
+      @include breakpoint(481px) {
+        margin: 0 1em 1em 0;
+        width: 50%;
+        float: left;
+      }
+
+      img {
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        width: 100%;
+      }
+  }
+  .field-name-field-categories {
+    margin-top: 1em;
+    font-weight: bold;
   }
 
-  @include breakpoint(992px) {
-    padding-top: 2em;
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1em;
   }
 
-  @include breakpoint(1259px) {
-    padding-top: 1.5em;
+  .radix-layouts-content {
+    flex: 1 100%;
+    padding-right: 0;
+
+    @include breakpoint(848px) {
+      flex: 3 0 560px;
+      min-width: 560px;
+      padding: 0.5em;
+    }
   }
 
-  .views-row {
-    width: 250px;
-    margin-right: 0.5em;
-    display: inline-block;
-    margin-bottom: 1em;
-    vertical-align: top;
+  .radix-layouts-sidebar {
+    flex: 1 300px;
+    min-width: 300px;
+    padding-left: 0;
 
-    &:last-child {
-      margin-bottom: 0;
+    @include breakpoint(848px) {
+      flex: 1 1 250px;
+      padding: 0.5em;
     }
 
-    @include breakpoint(992px) {
-      width: 100%;
-      margin-right: 0;
+    .boxed {
+      padding-top: 2em;
+    }
+  }
+}
+
+.node-type-press-release.panelized-node {
+  #content {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .panel-col-mid {
+    flex: 1 1 500px;
+  }
+  .panel-col-right {
+    @include breakpoint(1024px){
+      flex: 0 300px;
+      min-width: 300px;
+    }
+
+    div:first-child .panel-pane {
+      margin-top: 0;
     }
   }
 
-  .views-field-field-featured-image {
-    float: left;
-    margin-right: 1em;
+  h1.pane-node-title-field {
+    text-align: center;
+  }
+  
+  .content-main {
+    max-width: 960px;
+    background: #FFF;
+    margin: 0 auto 40px auto;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    padding: 5%;
+    box-sizing: border-box;
+
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+      top: 50%;
+      bottom: 0;
+      left: 10px;
+      right: 10px;
+      border-radius: 100px / 10px;
+    }
+  }
+
+  .pane-node-field-immediate-release,
+  .contact-title {
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .field-name-field-pr-about {
+    margin: 2em 0;
+  }
+
+  .field-name-field-full-contact-details {
+    margin: 2em 0;
+    text-align: center;
+
+    h4 {
+      margin: 0;
+      display: inline-flex;
+
+      &:after {
+        content: '\00a0';
+      }
+    }
+  }
+
+  .field-name-field-upload-document {
+    display: flex;
+    justify-content: center;
+  }
+
+  .field-name-field-featured-image {
+    width: 100%;
+
+    @include breakpoint(481px){
+      margin: 0 1em 1em 0;
+      width: 50%;
+      float: left;
+    }
 
     img {
-      margin-top: 4px;
-      height: 110px;
-      width: 110px;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
     }
+  }
+
+  .field-name-field-categories {
+    font-weight: bold;
+    text-align: center;
+
+    .field__label, .field__items {
+      display: inline-block;
+      float: none;
+    }
+  }
+
+  .pane-node-title h1 {
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .pane-node-links {
+    text-align: center;
+
+    .links {
+      display: inline-block;
+    }
+  }
+}
+
+.pane-news-test-panel-pane-5,
+.pane-articles-test-panel-pane-5,
+.pane-press-releases-test-panel-pane-5 {
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .views-row {
+    display: inline-block;
+    vertical-align: top;
+    width: 230px;
+    margin-right: 10px;
+    margin-bottom: 0.5em;
+    flex: 1 240px;
+  }
+  .views-field-field-featured-image {
+    float: left;
+    margin-right: 10px;
+  }
+  .views-field-published-at {
+    font-size: 0.8em;
   }
 }
 

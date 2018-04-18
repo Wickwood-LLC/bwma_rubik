@@ -7,7 +7,7 @@
 		"uuidString": "E5193F49-D232-4988-8B6A-B1F8F7595440"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -5854,10 +5854,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bwma_rubik_style-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/bwma_rubik_style.css.map": {
 		"cB": 0,
@@ -6091,7 +6091,7 @@
 	"\/theme-settings.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/theme-settings.php",
 		"oF": 0
 		}
@@ -6104,7 +6104,8 @@
 	"creationDate": 501047061,
 	"displayValue": "bwma_rubik",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-soon"
+	"iconImageName": "meme-soon",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -7907,6 +7908,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
