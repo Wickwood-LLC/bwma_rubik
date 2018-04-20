@@ -2659,6 +2659,10 @@ td:not([class]) {
   .node-type-panopoly-news-article .radix-layouts-sidebar .boxed,
   .node-type-panopoly-faq .radix-layouts-sidebar .boxed {
     padding-top: 2em; }
+  .node-type-article-post .radix-layouts-sidebar .field-name-field-categories,
+  .node-type-panopoly-news-article .radix-layouts-sidebar .field-name-field-categories,
+  .node-type-panopoly-faq .radix-layouts-sidebar .field-name-field-categories {
+    margin-top: 0; }
 
 .node-type-press-release.panelized-node #content {
   margin-right: 1%;
