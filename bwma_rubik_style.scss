@@ -2120,6 +2120,10 @@ td:not([class]) {
     div:first-child .panel-pane {
       margin-top: 0;
     }
+    
+    .boxed {
+      padding-top: 2em;
+    }
   }
 
   h1.pane-node-title-field {

@@ -2683,6 +2683,9 @@ td:not([class]) {
 .node-type-press-release.panelized-node .panel-col-right div:first-child .panel-pane {
   margin-top: 0; }
 
+.node-type-press-release.panelized-node .panel-col-right .boxed {
+  padding-top: 2em; }
+
 .node-type-press-release.panelized-node h1.pane-node-title-field {
   text-align: center; }
 
