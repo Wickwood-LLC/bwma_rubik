@@ -2120,7 +2120,7 @@ td:not([class]) {
     div:first-child .panel-pane {
       margin-top: 0;
     }
-    
+
     .boxed {
       padding-top: 2em;
     }
@@ -2223,7 +2223,8 @@ td:not([class]) {
 
 .pane-news-test-panel-pane-5,
 .pane-articles-test-panel-pane-5,
-.pane-press-releases-test-panel-pane-5 {
+.pane-press-releases-test-panel-pane-5,
+.pane-panopoly-faq-panel-pane-6 {
   .view-content {
     display: flex;
     flex-flow: row wrap;
