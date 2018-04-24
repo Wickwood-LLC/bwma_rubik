@@ -2038,63 +2038,6 @@ td:not([class]) {
     .boxed {
       padding-top: 2em;
     }
-  }
-}
-
-.node-type-article-post,
-.node-type-panopoly-news-article,
-.node-type-panopoly-faq {
-  .field-name-field-featured-image {
-    width: 100%;
-
-      @include breakpoint(481px) {
-        margin: 0 1em 1em 0;
-        width: 50%;
-        float: left;
-      }
-
-      img {
-        max-width: 100%;
-        min-width: 0;
-        height: auto;
-        width: 100%;
-      }
-  }
-  .field-name-field-categories {
-    margin-top: 1em;
-    font-weight: bold;
-  }
-
-  .row {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0 1em;
-  }
-
-  .radix-layouts-content {
-    flex: 1 100%;
-    padding-right: 0;
-
-    @include breakpoint(848px) {
-      flex: 3 0 560px;
-      min-width: 560px;
-      padding: 0.5em;
-    }
-  }
-
-  .radix-layouts-sidebar {
-    flex: 1 300px;
-    min-width: 300px;
-    padding-left: 0;
-
-    @include breakpoint(848px) {
-      flex: 1 1 250px;
-      padding: 0.5em;
-    }
-
-    .boxed {
-      padding-top: 2em;
-    }
 
     .field-name-field-categories {
       margin-top: 0;
