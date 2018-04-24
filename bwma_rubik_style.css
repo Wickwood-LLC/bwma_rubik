@@ -2510,20 +2510,20 @@ td:not([class]) {
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
-.node-type-article-post .field-name-field-featured-image,
-.node-type-panopoly-news-article .field-name-field-featured-image,
-.node-type-panopoly-faq .field-name-field-featured-image {
+.node-type-article-post .field.field-name-field-featured-image,
+.node-type-panopoly-news-article .field.field-name-field-featured-image,
+.node-type-panopoly-faq .field.field-name-field-featured-image {
   width: 100%; }
   @media (min-width: 481px) {
-    .node-type-article-post .field-name-field-featured-image,
-    .node-type-panopoly-news-article .field-name-field-featured-image,
-    .node-type-panopoly-faq .field-name-field-featured-image {
+    .node-type-article-post .field.field-name-field-featured-image,
+    .node-type-panopoly-news-article .field.field-name-field-featured-image,
+    .node-type-panopoly-faq .field.field-name-field-featured-image {
       margin: 0 1em 1em 0;
       width: 50%;
       float: left; } }
-  .node-type-article-post .field-name-field-featured-image img,
-  .node-type-panopoly-news-article .field-name-field-featured-image img,
-  .node-type-panopoly-faq .field-name-field-featured-image img {
+  .node-type-article-post .field.field-name-field-featured-image img,
+  .node-type-panopoly-news-article .field.field-name-field-featured-image img,
+  .node-type-panopoly-faq .field.field-name-field-featured-image img {
     max-width: 100%;
     min-width: 0;
     height: auto;
