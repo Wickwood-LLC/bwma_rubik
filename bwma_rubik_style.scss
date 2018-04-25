@@ -2706,7 +2706,8 @@ input.form-submit {
     .featured-display {
       height: 100%;
 
-      .view-content {
+      .view-content,
+      .pane-content {
         display: flex;
         width: 100%;
         flex-flow: row wrap;

@@ -3109,7 +3109,8 @@ input.form-submit {
     height: auto; }
   .blog-type-page #main-content .panel-myriad-layout .featured-display {
     height: 100%; }
-    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content,
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3120,9 +3121,11 @@ input.form-submit {
               flex-flow: row wrap;
       height: 100%; }
       @media (min-width: 944px) {
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content {
           display: block; } }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row {
         width: calc((100% / 3) - 42px);
         -webkit-box-flex: 1;
             -ms-flex: 1 100%;
@@ -3140,39 +3143,50 @@ input.form-submit {
         -webkit-box-sizing: content-box;
                 box-sizing: content-box; }
         @media (min-width: 420px) {
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row {
             -webkit-box-flex: 1;
                 -ms-flex: 1 1 300px;
                     flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px; } }
         @media (min-width: 944px) {
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row {
             min-width: 0; } }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-title,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-title p {
           text-align: center; }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .featured-image img {
           width: 100%;
           height: auto; }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-body {
           -webkit-box-flex: 1;
               -ms-flex: 1;
                   flex: 1;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex; }
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body iframe {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body iframe,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-body iframe {
             max-width: 100%; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .scroll-pane {
         overflow: auto; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-field-published-at {
         text-align: center;
         margin-bottom: 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-name {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-name,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-field-name {
         display: block;
         text-align: center;
         margin-bottom: 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-field-body img {
         display: block;
         height: auto;
         margin: auto; }
