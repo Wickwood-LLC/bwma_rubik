@@ -2923,6 +2923,15 @@ input.form-submit {
     width: 150px;
     height: auto;
   }
+
+  .field-video {
+    .field-items {
+      margin: 0;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  }
 }
 
 .field-name-field-review-date {

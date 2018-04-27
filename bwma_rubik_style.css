@@ -3350,6 +3350,12 @@ input.form-submit {
   width: 150px;
   height: auto; }
 
+.view-card-cycles .field-video .field-items {
+  margin: 0; }
+
+.view-card-cycles .field-video iframe {
+  max-width: 100%; }
+
 .field-name-field-review-date {
   display: block; }
   .field-name-field-review-date .form-item input {
