@@ -3181,6 +3181,11 @@ input.form-submit {
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image,
         .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row .views-field-field-featured-image {
           text-align: center; }
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-field-featured-image img,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-field-featured-image img,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image img,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row .views-field-field-featured-image img {
+            height: auto; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img,
         .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .featured-image img,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .featured-image img,

@@ -2748,6 +2748,10 @@ input.form-submit {
 
           .views-field-field-featured-image {
             text-align: center;
+
+            img {
+              height: auto;
+            }
           }
 
           .featured-image img {
