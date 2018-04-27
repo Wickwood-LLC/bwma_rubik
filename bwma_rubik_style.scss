@@ -2644,7 +2644,10 @@ input.form-submit {
         min-width: 0;
       }
 
-      .pane-articles-test-panel-pane-7 {
+      .pane-articles-test-panel-pane-7,
+      .pane-news-test-panel-pane-3,
+      .pane-press-releases-test-panel-pane-3,
+      .pane-panopoly-faq-panel-pane-3 {
         .view-content {
           column-width: 150px;
         }
@@ -2740,6 +2743,10 @@ input.form-submit {
           }
 
           .views-field-title, .views-field-title p {
+            text-align: center;
+          }
+
+          .views-field-field-featured-image {
             text-align: center;
           }
 
