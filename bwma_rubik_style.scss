@@ -2725,7 +2725,7 @@ input.form-submit {
           width: calc((100% / 3) - 42px);
           flex: 1 100%;
           padding: 0.5em;
-          margin: 0.5rem 0;
+          margin: 0.5rem;
           border: 1px solid #cccccc;
           font-size: 14px;
           display: inline-block;
@@ -2737,9 +2737,6 @@ input.form-submit {
             flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px;
-          }
-          @include breakpoint(771px) {
-            margin: 0.5rem;
           }
           @include breakpoint(944px) {
             min-width: 0;

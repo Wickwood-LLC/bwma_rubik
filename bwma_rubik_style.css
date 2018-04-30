@@ -3141,7 +3141,7 @@ input.form-submit {
             -ms-flex: 1 100%;
                 flex: 1 100%;
         padding: 0.5em;
-        margin: 0.5rem 0;
+        margin: 0.5rem;
         border: 1px solid #cccccc;
         font-size: 14px;
         display: inline-block;
@@ -3162,12 +3162,6 @@ input.form-submit {
                     flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px; } }
-        @media (min-width: 771px) {
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row {
-            margin: 0.5rem; } }
         @media (min-width: 944px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
           .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row,
