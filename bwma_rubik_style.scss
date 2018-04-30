@@ -2706,6 +2706,14 @@ input.form-submit {
       height: auto;
     }
 
+    .featured-display .views-row {
+      margin: 0.5rem;
+
+      @include breakpoint(771px) {
+        margin: 0.5rem 0;
+      }
+    }
+
     .featured-display,
     .main-display {
       height: 100%;

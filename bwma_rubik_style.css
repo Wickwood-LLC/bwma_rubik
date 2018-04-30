@@ -3110,6 +3110,11 @@ input.form-submit {
     height: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .pane-panopoly-faq-panel-pane-4 {
     height: auto; }
+  .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row {
+    margin: 0.5rem; }
+    @media (min-width: 771px) {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row {
+        margin: 0.5rem 0; } }
   .blog-type-page #main-content .panel-myriad-layout .featured-display,
   .blog-type-page #main-content .panel-myriad-layout .main-display {
     height: 100%; }
