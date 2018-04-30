@@ -2621,8 +2621,8 @@ input.form-submit {
       padding: 0.5em;
 
       @include breakpoint(626px) {
-        min-width: 560px;
         flex: 3 0 560px;
+        max-width: 100%;
       }
     }
 
