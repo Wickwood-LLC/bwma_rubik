@@ -2791,10 +2791,10 @@ input.form-submit {
     }
 
     .featured-display .pane-content .views-row {
-      margin: 0.5rem;
+      margin: 0.5rem 0;
 
       @include breakpoint(771px) {
-        margin: 0.5rem 0;
+        margin: 0.5rem;
       }
     }
 
