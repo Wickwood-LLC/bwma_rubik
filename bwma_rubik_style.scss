@@ -2706,7 +2706,7 @@ input.form-submit {
       height: auto;
     }
 
-    .featured-display .views-row {
+    .featured-display .pane-content .views-row {
       margin: 0.5rem;
 
       @include breakpoint(771px) {
