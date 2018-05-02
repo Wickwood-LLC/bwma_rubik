@@ -3050,7 +3050,8 @@ input.form-submit {
         -webkit-box-flex: 3;
             -ms-flex: 3 0 560px;
                 flex: 3 0 560px;
-        max-width: 100%; } }
+        max-width: 100%;
+        margin-bottom: 1em; } }
   .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 0px;

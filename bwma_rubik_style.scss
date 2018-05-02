@@ -2623,6 +2623,7 @@ input.form-submit {
       @include breakpoint(626px) {
         flex: 3 0 560px;
         max-width: 100%;
+        margin-bottom: 0.5em;
       }
     }
 
