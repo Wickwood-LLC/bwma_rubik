@@ -3365,10 +3365,12 @@ input.form-submit {
   width: 150px;
   height: auto; }
 
-.view-card-cycles .field-video .field-items {
+.view-card-cycles .field-video .field-items,
+.view-card-cycles .field-name-field-video .field-items {
   margin: 0; }
 
-.view-card-cycles .field-video iframe {
+.view-card-cycles .field-video iframe,
+.view-card-cycles .field-name-field-video iframe {
   max-width: 100%; }
 
 .field-name-field-review-date {
