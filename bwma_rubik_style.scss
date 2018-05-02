@@ -2574,6 +2574,12 @@ input.form-submit {
     }
   }
   
+  #main-content {
+    @include breakpoint(0px 667px) {
+      margin: 0;
+    }
+  }
+
   #main-content .panel-myriad-layout {
     display: flex;
     flex-flow: row wrap;

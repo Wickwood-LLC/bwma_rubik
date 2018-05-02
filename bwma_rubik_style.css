@@ -3003,6 +3003,10 @@ input.form-submit {
     top: 18px;
     right: 10px; }
 
+@media (min-width: 0px) and (max-width: 667px) {
+  .blog-type-page #main-content {
+    margin: 0; } }
+
 .blog-type-page #main-content .panel-myriad-layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3051,7 +3055,7 @@ input.form-submit {
             -ms-flex: 3 0 560px;
                 flex: 3 0 560px;
         max-width: 100%;
-        margin-bottom: 1em; } }
+        margin-bottom: 0.5em; } }
   .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 0px;
