@@ -2757,6 +2757,14 @@ input.form-submit {
             font-size: 18px;
             min-width: 300px;
           }
+          @include breakpoint(804px 943px) {
+            .views-row-first {
+              margin-left: 0;
+            }
+            .views-row-last {
+              margin-right: 0;
+            }
+          }
           @include breakpoint(944px) {
             min-width: 0;
           }
