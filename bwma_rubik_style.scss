@@ -2635,12 +2635,15 @@ input.form-submit {
     .main-content {
       width: 100%;
       flex: 1 100%;
-      padding: 0.5em;
+      padding: 0.5rem;
 
       @include breakpoint(626px) {
         flex: 3 0 560px;
         max-width: 100%;
         margin-bottom: 0.5em;
+      }
+      @include breakpoint(791px) {
+        padding: 0.5rem 0;
       }
     }
 
@@ -2756,14 +2759,6 @@ input.form-submit {
             flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px;
-          }
-          @include breakpoint(804px 943px) {
-            &.views-row-first {
-              margin-left: 0;
-            }
-            &.views-row-last {
-              margin-right: 0;
-            }
           }
           @include breakpoint(944px) {
             min-width: 0;
