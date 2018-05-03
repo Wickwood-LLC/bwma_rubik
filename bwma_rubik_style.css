@@ -3318,7 +3318,8 @@ input.form-submit {
     float: right;
     text-transform: capitalize;
     color: #EA4335;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: 1.5em; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:hover {
       text-decoration: underline; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {

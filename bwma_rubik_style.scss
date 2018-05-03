@@ -2883,10 +2883,11 @@ input.form-submit {
     }
 
     .views-field-view-node a {
-        float: right;
-        text-transform: capitalize;
-        color: #EA4335;
+      float: right;
+      text-transform: capitalize;
+      color: #EA4335;
       font-weight: bold;
+      margin-bottom: 1.5em;
 
       &:hover {
         text-decoration: underline;
