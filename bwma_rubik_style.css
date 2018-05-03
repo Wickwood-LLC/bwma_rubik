@@ -2891,10 +2891,16 @@ input.form-submit {
   padding: 2em 1em 1em 1em;
   margin-bottom: 1em; }
 
-#page-title h1.page-title {
-  font-size: 2em;
-  width: auto;
-  padding-bottom: 0; }
+#page-title {
+  background: none; }
+  #page-title .limiter {
+    width: auto;
+    margin: auto;
+    display: table; }
+  #page-title h1.page-title {
+    font-size: 2em;
+    width: auto;
+    padding-bottom: 0; }
 
 .add-or-remove-shortcuts {
   padding-bottom: 0; }

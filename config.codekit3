@@ -6081,6 +6081,13 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/page.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page.tpl.php",
+		"oF": 0
+		},
 	"\/template.php": {
 		"cB": 0,
 		"ft": 8192,
