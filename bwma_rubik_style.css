@@ -3088,6 +3088,9 @@ input.form-submit {
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-articles-test-panel-pane-7 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-news-test-panel-pane-3 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-press-releases-test-panel-pane-3 .view-content,
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-articles-test-panel-pane-2 .view-content,
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-news-test-panel-pane-2 .view-content,
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-press-releases-test-panel-pane-2 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-panopoly-faq-panel-pane-3 .view-content {
       -webkit-column-width: 150px;
               column-width: 150px; }
