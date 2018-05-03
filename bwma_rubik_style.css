@@ -3162,7 +3162,8 @@ input.form-submit {
                 flex-flow: column nowrap;
         vertical-align: top;
         -webkit-box-sizing: content-box;
-                box-sizing: content-box; }
+                box-sizing: content-box;
+        position: relative; }
         @media (min-width: 420px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
           .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row,
@@ -3331,7 +3332,10 @@ input.form-submit {
 .blog-type-page .views-field-field-categories {
   font-weight: bold;
   font-size: 0.8em;
-  clear: both; }
+  clear: both;
+  position: absolute;
+  width: 100%;
+  bottom: 1em; }
 
 .blog-type-page .views-label-field-categories {
   float: left;
