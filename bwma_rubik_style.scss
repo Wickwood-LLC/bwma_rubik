@@ -2758,10 +2758,10 @@ input.form-submit {
             min-width: 300px;
           }
           @include breakpoint(804px 943px) {
-            .views-row-first {
+            &.views-row-first {
               margin-left: 0;
             }
-            .views-row-last {
+            &.views-row-last {
               margin-right: 0;
             }
           }
