@@ -2789,10 +2789,12 @@ input.form-submit {
 
           .views-field-title, .views-field-title p {
             text-align: center;
+            margin-bottom: 1em;
           }
 
           .views-field-field-featured-image {
             text-align: center;
+            margin-bottom: 1em;
 
             img {
               height: auto;
@@ -2810,6 +2812,10 @@ input.form-submit {
 
             iframe {
               max-width: 100%;
+            }
+
+            p {
+              margin-bottom: 1em;
             }
           }
         }
