@@ -3176,7 +3176,9 @@ input.form-submit {
         margin: 0.5rem;
         border: 1px solid #cccccc;
         font-size: 14px;
-        display: inline-block;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-flow: column nowrap;
@@ -3339,8 +3341,7 @@ input.form-submit {
     float: right;
     text-transform: capitalize;
     color: #EA4335;
-    font-weight: bold;
-    margin-bottom: 1.5em; }
+    font-weight: bold; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:hover {
       text-decoration: underline; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
@@ -3354,10 +3355,7 @@ input.form-submit {
 .blog-type-page .views-field-field-categories {
   font-weight: bold;
   font-size: 0.8em;
-  clear: both;
-  position: absolute;
-  width: 100%;
-  bottom: 1em; }
+  clear: both; }
 
 .blog-type-page .views-label-field-categories {
   float: left;

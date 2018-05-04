@@ -2772,7 +2772,7 @@ input.form-submit {
           margin: 0.5rem;
           border: 1px solid #cccccc;
           font-size: 14px;
-          display: inline-block;
+          display: inline-flex;
           flex-flow: column nowrap;
           vertical-align: top;
           box-sizing: content-box;
@@ -2913,7 +2913,6 @@ input.form-submit {
       text-transform: capitalize;
       color: #EA4335;
       font-weight: bold;
-      margin-bottom: 1.5em;
 
       &:hover {
         text-decoration: underline;
@@ -2933,9 +2932,6 @@ input.form-submit {
     font-weight: bold;
     font-size: 0.8em;
     clear: both;
-    position: absolute;
-    width: 100%;
-    bottom: 1em;
   }
   .views-label-field-categories {
     float: left;
