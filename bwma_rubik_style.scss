@@ -527,6 +527,22 @@ div.comment, div.node {
   border: 0px;
 }
 
+#console {
+  margin-top: 10px;
+
+  .messages {
+    margin: 0;
+  }
+}
+
+div.pager {
+  margin: 0;
+}
+
+#block-system-main > .block-content {
+  padding-top: 0;
+}
+
 .view-content {
   .field-name-field-business-contacts {
     .field-name-field-family-contact,
@@ -2438,6 +2454,7 @@ input.form-submit {
 
 #page-title {
   background: none;
+  font-weight: bold;
 
   .limiter {
     width: auto;
@@ -2636,14 +2653,17 @@ input.form-submit {
       width: 100%;
       flex: 1 100%;
       padding: 0.5rem;
+      padding-top: 0;
 
       @include breakpoint(626px) {
         flex: 3 0 560px;
         max-width: 100%;
         margin-bottom: 0.5em;
+        padding-top: 0;
       }
       @include breakpoint(791px) {
         padding: 0.5rem 0;
+        padding-top: 0;
       }
     }
 
