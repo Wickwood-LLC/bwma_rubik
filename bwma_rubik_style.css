@@ -2753,6 +2753,9 @@ td:not([class]) {
 .pane-categories .panel-separator {
   display: none; }
 
+#page {
+  clear: both; }
+
 #page .pane-content-area.boxed {
   overflow: hidden; }
 
