@@ -44,8 +44,10 @@
     <?php endif; ?>
   </div>
   <?php if ($action_links): ?>
-    <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
-    <?php print render($title_suffix); ?>
+    <div class="links-and-shortcuts">
+      <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
+      <?php print render($title_suffix); ?>
+    </div>
   <?php endif; ?>
 </div>
 
