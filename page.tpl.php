@@ -37,15 +37,17 @@
   </h1>
 </div></div>
 
-<div class='tabs clearfix'>
-  <?php if ($primary_local_tasks): ?>
-    <ul class='primary-tabs links clearfix'><?php print render($primary_local_tasks) ?></ul>
+<div class="tools">
+  <div class='tabs clearfix'>
+    <?php if ($primary_local_tasks): ?>
+      <ul class='primary-tabs links clearfix'><?php print render($primary_local_tasks) ?></ul>
+    <?php endif; ?>
+  </div>
+  <?php if ($action_links): ?>
+    <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
+    <?php print render($title_suffix); ?>
   <?php endif; ?>
 </div>
-<?php if ($action_links): ?>
-  <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
-  <?php print render($title_suffix); ?>
-<?php endif; ?>
 
 <div id='page'><div id='main-content' class='limiter clearfix'>
   <?php if ($page['help']) print render($page['help']) ?>
