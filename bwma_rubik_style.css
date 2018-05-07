@@ -2920,6 +2920,9 @@ input.form-submit {
 .add-or-remove-shortcuts {
   padding-bottom: 0; }
 
+.add-or-remove-shortcuts a span.text {
+  display: block; }
+
 /********** Articles, News, Press Release **********/
 .blog-type-page h1.page-title {
   width: 100%;
