@@ -2917,6 +2917,25 @@ input.form-submit {
     width: auto;
     padding-bottom: 0; }
 
+.tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (min-width: 800px) {
+    .tools {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+  .tools .tabs {
+    margin-right: 10px; }
+
 .add-or-remove-shortcuts {
   padding-bottom: 0; }
 

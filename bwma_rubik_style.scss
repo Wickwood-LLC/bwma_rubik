@@ -2473,6 +2473,20 @@ input.form-submit {
   }
 }
 
+.tools {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  @include breakpoint(800px) {
+    justify-content: space-between;
+  }
+
+  .tabs {
+    margin-right: 10px;
+  }
+}
+
 .add-or-remove-shortcuts {
   padding-bottom: 0;
 }
