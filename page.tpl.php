@@ -35,7 +35,6 @@
     <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
     <?php if ($title) print $title ?>
   </h1>
-  <?php print render($title_suffix); ?>
 </div></div>
 
 <div class='tabs clearfix'>
@@ -45,6 +44,7 @@
 </div>
 <?php if ($action_links): ?>
   <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
+  <?php print render($title_suffix); ?>
 <?php endif; ?>
 
 <div id='page'><div id='main-content' class='limiter clearfix'>
