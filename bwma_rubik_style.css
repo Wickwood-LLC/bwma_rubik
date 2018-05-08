@@ -2931,9 +2931,7 @@ input.form-submit {
           justify-content: center; }
   @media (min-width: 800px) {
     .tools {
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+      display: block; } }
   .tools .tabs {
     margin-right: 10px; }
 

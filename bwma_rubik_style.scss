@@ -2480,7 +2480,7 @@ input.form-submit {
   justify-content: center;
 
   @include breakpoint(800px) {
-    justify-content: space-between;
+    display: block;
   }
 
   .tabs {
