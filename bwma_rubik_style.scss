@@ -2469,7 +2469,8 @@ input.form-submit {
   h1.page-title {
     font-size: 2em;
     width: auto;
-    padding-bottom: 0;
+    padding: 0;
+    padding-top: 15px;
     font-weight: bold;
   }
 }
@@ -2483,16 +2484,33 @@ input.form-submit {
     display: block;
   }
 
-  .tabs {
-    margin-right: 10px;
+  .links-and-shortcuts {
+    margin-top: 6px;
+    display: inline-block;
+    padding: 0 10px;
   }
-}
 
-.add-or-remove-shortcuts {
-  padding-bottom: 0;
-}
-.add-or-remove-shortcuts a span.text {
-  display: block;
+  .tabs {
+    margin: 1em 10px 0;
+
+    @include breakpoint(800px) {
+      margin-top: 0;
+    }
+  }
+  .primary-tabs {
+    margin: 0;
+  }
+
+  .action-links {
+    padding: 0;
+  }
+
+  .add-or-remove-shortcuts {
+    padding: 0;
+  }
+  .add-or-remove-shortcuts a span.text {
+    display: block;
+  }
 }
 
 /********** Articles, News, Press Release **********/

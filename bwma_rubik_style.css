@@ -2915,7 +2915,8 @@ input.form-submit {
   #page-title h1.page-title {
     font-size: 2em;
     width: auto;
-    padding-bottom: 0;
+    padding: 0;
+    padding-top: 15px;
     font-weight: bold; }
 
 .tools {
@@ -2932,14 +2933,23 @@ input.form-submit {
   @media (min-width: 800px) {
     .tools {
       display: block; } }
+  .tools .links-and-shortcuts {
+    margin-top: 6px;
+    display: inline-block;
+    padding: 0 10px; }
   .tools .tabs {
-    margin-right: 10px; }
-
-.add-or-remove-shortcuts {
-  padding-bottom: 0; }
-
-.add-or-remove-shortcuts a span.text {
-  display: block; }
+    margin: 1em 10px 0; }
+    @media (min-width: 800px) {
+      .tools .tabs {
+        margin-top: 0; } }
+  .tools .primary-tabs {
+    margin: 0; }
+  .tools .action-links {
+    padding: 0; }
+  .tools .add-or-remove-shortcuts {
+    padding: 0; }
+  .tools .add-or-remove-shortcuts a span.text {
+    display: block; }
 
 /********** Articles, News, Press Release **********/
 .blog-type-page h1.page-title {
