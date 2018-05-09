@@ -3181,7 +3181,7 @@ input.form-submit {
   text-align: center;
 
   @include breakpoint(944px) {
-    width: 66%;
+    width: calc(66% - 1em);
   }
 
   p {
