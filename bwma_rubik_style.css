@@ -3620,7 +3620,8 @@ input.form-submit {
     clear: both;
     border: 1px solid #CCCCCC;
     padding: 1em;
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
 
 #views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type {
   -webkit-box-flex: 100%;
