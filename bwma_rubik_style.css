@@ -3601,9 +3601,11 @@ input.form-submit {
           align-items: center;
   text-align: center; }
 
-.view-empty {
+.view-empty,
+.pane-views-empty {
   margin: 0 0.5em; }
-  .view-empty p {
+  .view-empty p,
+  .pane-views-empty p {
     width: 100%; }
 
 #views-exposed-form-panopoly-taxonomy-panel-pane-3 .views-widget-filter-type {
