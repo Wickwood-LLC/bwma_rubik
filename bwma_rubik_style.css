@@ -2521,6 +2521,15 @@ td:not([class]) {
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
+.node-type-article-post .field-name-title-field,
+.node-type-panopoly-news-article .field-name-title-field,
+.node-type-panopoly-faq .field-name-title-field {
+  text-align: center; }
+  .node-type-article-post .field-name-title-field h1,
+  .node-type-panopoly-news-article .field-name-title-field h1,
+  .node-type-panopoly-faq .field-name-title-field h1 {
+    margin-top: 0; }
+
 .node-type-article-post .field.field-name-field-featured-image,
 .node-type-panopoly-news-article .field.field-name-field-featured-image,
 .node-type-panopoly-faq .field.field-name-field-featured-image {
@@ -2917,7 +2926,8 @@ input.form-submit {
     width: auto;
     padding: 0;
     padding-top: 15px;
-    font-weight: bold; }
+    font-weight: bold;
+    min-height: auto; }
 
 .tools {
   display: -webkit-box;
