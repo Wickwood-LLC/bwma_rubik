@@ -2705,6 +2705,10 @@ input.form-submit {
         padding: 0.5rem 0;
         padding-top: 0;
       }
+
+      > div > div {
+        display: flex;
+      }
     }
 
     .sidebar-content {
@@ -3182,6 +3186,7 @@ input.form-submit {
 
   @include breakpoint(944px) {
     width: calc(66% - 1em);
+    margin-top: 0.5rem;
   }
 
   p {
