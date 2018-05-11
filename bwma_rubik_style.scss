@@ -2835,9 +2835,13 @@ input.form-submit {
             min-width: 0;
           }
 
-          .views-field-title-field, .views-field-title-field p {
+          .views-field-title,
+          .views-field-title-field,
+          .views-field-title p,
+          .views-field-title-field p {
             text-align: center;
           }
+          .views-field-title p,
           .views-field-title-field p {
             display: inline-block;
           }
@@ -2924,7 +2928,9 @@ input.form-submit {
         }
 
         .views-field-field-featured-image,
+        .views-field-title,
         .views-field-title-field, 
+        views-field-title p,
         .views-field-title-field p {
           text-align: center;
           
@@ -2932,6 +2938,7 @@ input.form-submit {
             margin-bottom: 0;
           }
         }
+        .views-field-title,
         .views-field-title-field p {
           display: inline-block;
         }
@@ -2984,11 +2991,14 @@ input.form-submit {
     }
   }
 
+  .views-field-title p,
   .views-field-title-field p,
+  .views-field-title h2,
   .views-field-title-field h2 {
     text-align: center;
     margin: 0;
   }
+  .views-field-title p,
   .views-field-title-field p {
     display: inline-block;
   }
