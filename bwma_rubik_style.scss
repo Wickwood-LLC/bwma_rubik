@@ -2835,7 +2835,7 @@ input.form-submit {
             min-width: 0;
           }
 
-          .views-field-title, .views-field-title p {
+          .views-field-title-field, .views-field-title-field p {
             text-align: center;
           }
 
@@ -2921,8 +2921,8 @@ input.form-submit {
         }
 
         .views-field-field-featured-image,
-        .views-field-title, 
-        .views-field-title p {
+        .views-field-title-field, 
+        .views-field-title-field p {
           text-align: center;
           
           h3 {
@@ -2978,8 +2978,8 @@ input.form-submit {
     }
   }
 
-  .views-field-title p,
-  .views-field-title h2 {
+  .views-field-title-field p,
+  .views-field-title-field h2 {
     text-align: center;
     margin: 0;
   }
