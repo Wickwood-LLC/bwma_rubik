@@ -2837,6 +2837,7 @@ input.form-submit {
 
           .views-field-title-field, .views-field-title-field p {
             text-align: center;
+            display: inline-block;
           }
 
           .views-field-field-featured-image {
@@ -2981,6 +2982,7 @@ input.form-submit {
   .views-field-title-field p,
   .views-field-title-field h2 {
     text-align: center;
+    display: inline-block;
     margin: 0;
   }
   .views-field-field-categories {
