@@ -3272,7 +3272,7 @@ input.form-submit {
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title-field p,
         .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row .views-field-title p,
         .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row .views-field-title-field p {
-          display: inline-block; }
+          display: inline; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-field-featured-image,
         .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-field-featured-image,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image,
@@ -3390,7 +3390,7 @@ input.form-submit {
           margin-bottom: 0; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title-field p {
-        display: inline-block; }
+        display: inline; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at {
         display: block;
@@ -3433,7 +3433,7 @@ input.form-submit {
 
 .blog-type-page .views-field-title p,
 .blog-type-page .views-field-title-field p {
-  display: inline-block; }
+  display: inline; }
 
 .blog-type-page .views-field-field-categories {
   font-weight: bold;

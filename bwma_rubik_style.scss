@@ -2843,7 +2843,7 @@ input.form-submit {
           }
           .views-field-title p,
           .views-field-title-field p {
-            display: inline-block;
+            display: inline;
           }
 
           .views-field-field-featured-image {
@@ -2940,7 +2940,7 @@ input.form-submit {
         }
         .views-field-title,
         .views-field-title-field p {
-          display: inline-block;
+          display: inline;
         }
         .views-field-name,
         .views-field-published-at {
@@ -3000,7 +3000,7 @@ input.form-submit {
   }
   .views-field-title p,
   .views-field-title-field p {
-    display: inline-block;
+    display: inline;
   }
   .views-field-field-categories {
     font-weight: bold;
