@@ -2836,14 +2836,13 @@ input.form-submit {
           }
 
           .views-field-title,
-          .views-field-title-field,
-          .views-field-title p,
-          .views-field-title-field p {
+          .views-field-title-field {
             text-align: center;
-          }
-          .views-field-title p,
-          .views-field-title-field p {
-            display: inline;
+
+            a > * {
+              display: inline;
+              font-size: inherit;
+            }
           }
 
           .views-field-field-featured-image {
