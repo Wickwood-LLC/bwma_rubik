@@ -2837,6 +2837,8 @@ input.form-submit {
 
           .views-field-title-field, .views-field-title-field p {
             text-align: center;
+          }
+          .views-field-title-field p {
             display: inline-block;
           }
 
@@ -2930,6 +2932,9 @@ input.form-submit {
             margin-bottom: 0;
           }
         }
+        .views-field-title-field p {
+          display: inline-block;
+        }
         .views-field-name,
         .views-field-published-at {
           display: block;
@@ -2982,8 +2987,10 @@ input.form-submit {
   .views-field-title-field p,
   .views-field-title-field h2 {
     text-align: center;
-    display: inline-block;
     margin: 0;
+  }
+  .views-field-title-field p {
+    display: inline-block;
   }
   .views-field-field-categories {
     font-weight: bold;
