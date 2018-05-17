@@ -2631,7 +2631,7 @@ td:not([class]) {
 .node-type-press-release.panelized-node .panel-col-right .boxed {
   padding-top: 2em; }
 
-.node-type-press-release.panelized-node h1.pane-node-title-field {
+.node-type-press-release.panelized-node .pane-node-title-field h1 {
   text-align: center; }
 
 .node-type-press-release.panelized-node .content-main {
