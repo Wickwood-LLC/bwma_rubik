@@ -3643,7 +3643,6 @@ input.form-submit {
   @media (min-width: 944px) {
     .view-empty,
     .pane-views-empty {
-      width: calc(66% - 1em);
       margin-top: 0.5rem; } }
   .view-empty p,
   .pane-views-empty p {
