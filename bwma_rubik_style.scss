@@ -2058,6 +2058,10 @@ td:not([class]) {
       padding: 0.5em;
     }
 
+    > div:first-child {
+      margin-top: 1em;
+    }
+
     .boxed {
       padding-top: 2em;
     }
