@@ -3471,11 +3471,13 @@ input.form-submit {
   height: auto; }
 
 .field-video .field-items,
-.field-name-field-video .field-items {
+.field-name-field-video .field-items,
+.media-element-container .field-items {
   margin: 0; }
 
 .field-video iframe,
-.field-name-field-video iframe {
+.field-name-field-video iframe,
+.media-element-container iframe {
   max-width: 100%;
   margin: auto;
   display: block; }
