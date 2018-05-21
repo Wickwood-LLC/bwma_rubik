@@ -3476,7 +3476,9 @@ input.form-submit {
 
 .field-video iframe,
 .field-name-field-video iframe {
-  max-width: 100%; }
+  max-width: 100%;
+  margin: auto;
+  display: block; }
 
 .field-name-field-review-date {
   display: block; }
