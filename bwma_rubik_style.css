@@ -3396,8 +3396,7 @@ input.form-submit {
           margin-bottom: 1em;
           line-height: 1.35em; }
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body iframe {
-          width: 100%;
-          height: auto; }
+          max-width: 100%; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-categories {
         font-weight: bold;
         font-size: 0.8em; }
@@ -3471,12 +3470,12 @@ input.form-submit {
   width: 150px;
   height: auto; }
 
-.view-card-cycles .field-video .field-items,
-.view-card-cycles .field-name-field-video .field-items {
+.field-video .field-items,
+.field-name-field-video .field-items {
   margin: 0; }
 
-.view-card-cycles .field-video iframe,
-.view-card-cycles .field-name-field-video iframe {
+.field-video iframe,
+.field-name-field-video iframe {
   max-width: 100%; }
 
 .field-name-field-review-date {

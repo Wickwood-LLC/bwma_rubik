@@ -2956,8 +2956,7 @@ input.form-submit {
           }
 
           iframe {
-            width: 100%;
-            height: auto;
+            max-width: 100%;
           }
         }
         .views-field-field-categories {
@@ -3053,15 +3052,15 @@ input.form-submit {
     width: 150px;
     height: auto;
   }
+}
 
-  .field-video,
-  .field-name-field-video {
-    .field-items {
-      margin: 0;
-    }
-    iframe {
-      max-width: 100%;
-    }
+.field-video,
+.field-name-field-video {
+  .field-items {
+    margin: 0;
+  }
+  iframe {
+    max-width: 100%;
   }
 }
 
