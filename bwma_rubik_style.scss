@@ -2026,6 +2026,9 @@ td:not([class]) {
         width: 100%;
       }
   }
+  .field.field-name-body .field-items {
+    margin: 0;
+  }
   .field-name-field-categories {
     margin-top: 1em;
     font-weight: bold;

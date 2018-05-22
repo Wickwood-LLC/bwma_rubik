@@ -2549,6 +2549,11 @@ td:not([class]) {
     height: auto;
     width: 100%; }
 
+.node-type-article-post .field.field-name-body .field-items,
+.node-type-panopoly-news-article .field.field-name-body .field-items,
+.node-type-panopoly-faq .field.field-name-body .field-items {
+  margin: 0; }
+
 .node-type-article-post .field-name-field-categories,
 .node-type-panopoly-news-article .field-name-field-categories,
 .node-type-panopoly-faq .field-name-field-categories {
