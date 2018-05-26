@@ -803,9 +803,21 @@ table.views-table {
     }
   }
 
+  .pane-node-field-upload-document.boxed {
+    padding-top: 1em;
+  }
   .field-name-field-upload-document {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
+
+    .field-label {
+      flex: 100%;
+    }
+    .field-items {
+      flex: 100%;
+      margin: 0;
+    }
   }
 
   .field-name-field-featured-image {
