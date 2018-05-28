@@ -2866,8 +2866,6 @@ input.form-submit {
 
           .views-field-field-featured-image {
             text-align: center;
-            margin-bottom: 1em;
-            margin-top: 1em;
 
             img {
               height: auto;
@@ -2889,6 +2887,9 @@ input.form-submit {
 
             p {
               margin-bottom: 1em;
+            }
+            p:first-of-type {
+              margin-top: 1em;
             }
           }
         }
@@ -2953,7 +2954,7 @@ input.form-submit {
           text-align: center;
           
           h3 {
-            margin-bottom: 0;
+            margin-top: 0;
           }
         }
         .views-field-title,
