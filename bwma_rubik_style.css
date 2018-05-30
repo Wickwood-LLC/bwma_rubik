@@ -38,10 +38,8 @@ div.comment, div.node {
   background: none;
   border: 0px; }
 
-#console {
+#console .messages {
   margin-top: 10px; }
-  #console .messages {
-    margin: 0; }
 
 div.pager {
   margin: 0; }
