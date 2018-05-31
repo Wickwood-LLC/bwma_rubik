@@ -39,7 +39,9 @@ div.comment, div.node {
   border: 0px; }
 
 #console .messages {
-  margin-top: 10px; }
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-height: 40px; }
 
 div.pager {
   margin: 0; }

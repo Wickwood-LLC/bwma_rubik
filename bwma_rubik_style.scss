@@ -529,7 +529,9 @@ div.comment, div.node {
 
 #console {
   .messages {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 40px;
   }
 }
 
