@@ -46,6 +46,9 @@ div.comment, div.node {
 div.pager {
   margin: 0; }
 
+#block-system-main {
+  border: 0px; }
+
 #block-system-main > .block-content {
   padding-top: 0; }
 
@@ -3721,7 +3724,6 @@ input.form-submit {
     max-width: 100%; }
   .views-exposed-form .views-exposed-widget .form-submit {
     margin-top: 0;
-    position: absolute;
     bottom: 0px;
     right: 10px; }
 
