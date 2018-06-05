@@ -3290,4 +3290,14 @@ input.form-submit {
       margin-right: 0.5em;
     }
   }
+
+  .actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .views-submit-button {
+    margin-right: 5px;
+  }
 }
