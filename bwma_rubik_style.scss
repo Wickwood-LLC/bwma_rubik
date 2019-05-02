@@ -1193,12 +1193,16 @@ table.views-table {
 }
 
 .bwma-referral-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 5px;
+
     input[type="text"] {
-        width: 90%;
+        flex: 1 1 200px;
         border-width: 1px;
         border-color: black;
         border-style: solid;
-        margin-bottom: 5px;
         margin-left: 1em;
         margin-right: 1em;
         background: #c3f3ff;
