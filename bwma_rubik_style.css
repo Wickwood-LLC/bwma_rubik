@@ -85,10 +85,12 @@ div.pager {
   .view-vendors .views-field-edit-node a,
   .view-service-bureaus .views-field-edit-node a,
   .view-non-staff-users .views-field-edit-node a {
-    transform: rotate(-90deg); }
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
 
 .view-lenders .views-field-edit-node a {
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   top: initial;
   margin-top: initial; }
 
@@ -598,7 +600,8 @@ table.views-table .pane-user-field-identification {
 /* Client Edit Styles */
 .page-user-edit.page-user-edit-bwma-client .pane-profile2-field-loans #edit-profile-bwma-client-field-loans .button-remove {
   position: static;
-  transform: rotate(0deg); }
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg); }
 
 .page-user-edit.page-user-edit-bwma-client .pane-profile2-field-loans #edit-profile-bwma-client-field-loans input[type="submit"] {
   margin-right: 0.5em;
@@ -1317,7 +1320,8 @@ table#field-notes-values {
 
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes,
 .page-admin-people-create .field-name-field-bwma-programs-enrolled .form-checkboxes {
-  column-count: 2; }
+  -webkit-column-count: 2;
+          column-count: 2; }
 
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper,
 .page-admin-people-create .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
@@ -1409,7 +1413,8 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios,
 .page-admin-people-create .field-name-field-group .form-radios {
-  column-count: 2; }
+  -webkit-column-count: 2;
+          column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios,
 .page-admin-people-create .field-name-field-identification .form-radios {
@@ -1429,7 +1434,8 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-roles .form-checkboxes,
 .page-admin-people-create .form-item-roles .form-checkboxes {
-  column-count: 2; }
+  -webkit-column-count: 2;
+          column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label,
 .page-admin-people-create .group-user label {
@@ -1463,7 +1469,8 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete),
 .page-admin-people-create input.button-remove:not(#edit-delete) {
   position: absolute;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   right: -50px;
   top: 50%; }
 
@@ -1692,7 +1699,8 @@ table#field-notes-values {
       display: inline; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .button-remove {
       position: relative;
-      transform: none;
+      -webkit-transform: none;
+              transform: none;
       right: 0;
       top: 0; }
 
@@ -1766,7 +1774,8 @@ table#field-notes-values {
     position: absolute;
     right: -50px;
     top: 50%;
-    transform: rotate(-90deg); }
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
 
 .field-name-field-notes .field-add-more-submit,
 .field-name-field-staff-notes .field-add-more-submit {
@@ -1780,11 +1789,13 @@ td:not([class]) {
       position: absolute;
       right: -50px;
       top: 50%;
-      transform: rotate(-90deg); } }
+      -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg); } }
 
 #edit-field-loans.field-name-field-loans .button-remove {
   position: initial;
-  transform: none;
+  -webkit-transform: none;
+          transform: none;
   margin-right: 0.5em; }
 
 .field-name-field-referral-client .form-item,
@@ -2614,7 +2625,8 @@ input.form-submit {
         display: inline-block;
         margin-left: 0.5em; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator {
-    filter: invert(70%); }
+    -webkit-filter: invert(70%);
+            filter: invert(70%); }
   #block-superfish-1 #superfish-1 .menuparent ul {
     width: auto !important;
     overflow: visible !important; }
@@ -2853,7 +2865,8 @@ input.form-submit {
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-news2-panel-pane-2 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-press-releases2-panel-pane-2 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-panopoly-faq-panel-pane-3 .view-content {
-      column-width: 150px; }
+      -webkit-column-width: 150px;
+              column-width: 150px; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:first-child {
       margin-top: 0; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .boxed {
@@ -3336,5 +3349,4 @@ input.form-submit {
 
 .views-exposed-form .views-submit-button {
   margin-right: 5px; }
-
 /*# sourceMappingURL=bwma_rubik_style.css.map */
